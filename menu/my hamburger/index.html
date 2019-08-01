@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hammubrger</title>
+    <style>
+        .wrapper {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .burger,
+        .logo,
+        aside,
+        .text {
+            transition: 0.7s ease-in-out;
+        }
+
+        .burger {
+            width: 42px;
+            height: 42px;
+            border: none;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 50%;
+            font-size: 42px;
+            line-height: 42px;
+            position: relative;
+            z-index: 1;
+
+        }
+
+        .burger.active {
+            transform: rotate(405deg);
+        }
+
+        .burger.active+aside {
+            left: 0;
+        }
+
+        .logo__active {
+            padding-left: 300px;
+        }
+
+        aside {
+            width: 300px;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            left: -300px;
+            background-color: black;
+            color: white;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <setion class="text">
+            logo
+        </setion>
+        <button class="burger">+</button>
+        <aside>
+            <nav>
+                <ul>
+                    <li>sam</li>
+                    <li>simplex</li>
+                    <li>woeonda</li>
+                </ul>
+            </nav>
+        </aside>
+
+    </div>
+    <script>
+        const btn = document.querySelector(".burger");
+        const aside = document.querySelector("aside");
+        const txt = document.querySelector(".text");
+
+        btn.addEventListener("click", () => {
+            btn.classList.toggle("active");
+            //txt.classList.toggle("logo__active");
+
+        })
+    </script>
+</body>
+
+</html>

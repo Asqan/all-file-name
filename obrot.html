@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cards__wrapper {
+            perspective: 2000px;
+            height: 200px;
+            width: 25%;
+            padding: 0 5px;
+            margin: 5px 0;
+            box-sizing: border-box;
+
+
+        }
+
+        .card {
+            height: 200px;
+            width: 100%;
+            transform-style: preserve-3d;
+            position: relative;
+            transition: transform 0.2s ease-in-out 0.1s;
+
+
+        }
+
+        /*obrót karty na rodzicu */
+        .cards__wrapper:hover>.card {
+            transform: rotateY(180deg);
+
+        }
+
+        .card__front,
+        .card__back {
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            position: absolute;
+            transform-style: preserve-3d;
+        }
+
+        .card__front {
+            background-color: red;
+        }
+
+        .card__back {
+            background-color: green;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cards">
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+        <div class="cards__wrapper">
+            <div class="cards__wrapper-card card">
+                <div class="card__front">przód</div>
+                <div class="card__back">tył</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .frome {
+            width: 250px;
+            height: 250px;
+            border: 1px solid black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="frome"></div>
+    <div class="frome"></div>
+    <div class="frome"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script>
+        const frome = document.querySelectorAll(".frome");
+        /*
+        TweenMax.set(frome, {
+            visibility: "visible"
+        });
+        /*
+        TweenMax.fromTo(frome, 5, {
+            x: -100,
+            y: 100,
+            opacity: 0,
+            backgroundColor: "blue"
+
+        }, {
+            x: 0,
+            y: 0,
+            backgroundColor: "red",
+            opacity: 1
+        });
+        */
+        /* from - z tej pozyjci , z opacity:0 do 1 /// a to: to do opacity:0
+        TweenMax.from(frome, 5, {
+            opacity: 0
+        });
+        */
+        /*przy wielu elemenatach stosujemy starggerFrom*/
+        /*
+        TweenMax.staggerFrom(frome, 5 czas trwania {
+            opacity: 0,
+            x: 200
+        }, 5);  miedzyu jednym a drugim elementem ma byc taka przepaść
+*/
+        // w gsap jest jeszcze timeline - oś czasu
+
+        /* tworzymy oś czasu ,nowy obiekt i mozemy mu dać na start delay przy starcie //odpalanie przeglądrki */
+
+        const tl = new TimelineMax({
+            delay: 2
+        });
+        tl.set(frome, {
+            visibility: 'visible'
+        });
+        tl.from(frome, 0.5, {
+            opacity: 0
+        }).to(frome[0], 1, {
+
+            x: 50,
+            y: -50
+        }, "+=3").to(frome[2], 1, {
+
+            x: -50,
+            y: 50
+        }, "+=5");
+    </script>
+</body>
+
+</html>

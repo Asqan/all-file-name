@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu fixed plus scroll to top</title>
+
+    <style>
+        .menu {
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            padding: 0;
+            top: 0;
+            left: 0;
+            background-color: red;
+            height: 40px;
+            line-height: 40px;
+
+
+
+        }
+
+        .borderTop {
+            border-top: 5px solid white;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        .show {
+            animation: showmenu 1s;
+        }
+
+        main {
+            margin-top: 45px;
+            position: relative;
+        }
+
+        .one,
+        .two,
+        .three,
+        .five,
+        .six {
+            transform: translateX(-100%);
+            transition: transform 0.5s ease-in-out 0.1s;
+        }
+
+        .four {
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in-out 0.1s;
+        }
+
+        main section:first-of-type {
+            height: 400px;
+            background-color: red;
+        }
+
+        main section:nth-of-type(2) {
+            height: 400px;
+            background-color: green;
+        }
+
+        main section:nth-of-type(3) {
+            height: 400px;
+            background-color: crimson;
+        }
+
+        main section:nth-of-type(4) {
+            height: 400px;
+            background-color: lightskyblue;
+        }
+
+        main section:nth-of-type(4) {
+            height: 1000px;
+            background-color: darkslategray;
+        }
+
+        main section:nth-of-type(5) {
+            height: 1000px;
+            background-color: darkorange;
+
+        }
+
+        main section:nth-of-type(6) {
+            height: 1000px;
+            background-color: forestgreen;
+
+        }
+
+        .menu__list {
+
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            margin: 0;
+        }
+
+        .fadeIn {
+            transform: translate(0);
+            transition: transform 0.5s ease-in-out 0.1s;
+        }
+
+        @keyframes showmenu {
+            from {
+                transform: translateY(-100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .menu__list.fixed {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: green;
+            padding: 20px 0;
+            margin: 0;
+            animation: showmenu 1s both;
+
+
+        }
+
+        .menu__list--item {
+            list-style-type: none;
+        }
+
+        .menu__list .menu__link {
+
+            color: black;
+        }
+
+        .scrollTotop {
+            opacity: 0;
+            position: fixed;
+            bottom: 300px;
+            right: 50px;
+            font-size: 40px;
+            color: black;
+        }
+
+        .scrollTotop.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="menu">
+        <ul class="menu__list">
+            <li class="menu__list--item"><a class="menu__link menu__link-1" href="#start">Start</a></li>
+            <li class="menu__list--item"><a class="menu__link menu__link-2" href="#about">O nas</a></li>
+            <li class="menu__list--item"><a class="menu__link menu__link-3" href="#news">Aktualności</a></li>
+            <li class="menu__list--item"><a class="menu__link menu__link-4" href="#portfolio">Portfolio</a></li>
+            <li class="menu__list--item"><a class="menu__link menu__link-5" href="#contact">Kontakt</a></li>
+            <li class="menu__list--item"><a class="menu__link menu__link-6" href="#map">Mapa</a></li>
+        </ul>
+    </section>
+    <main>
+
+        <p class="aboutus__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam reLorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam re
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus aperiam impedit.
+            Dolores
+            totam vitae, laudantium provident unde repellendus officia aliquam nulla earum ut mollitia debitis
+            veniam
+            voluptatibus iste excepturi.
+            Quam consequatur error impedit enim delectus nostrum explicabo, necessitatibus repellendus rerum, ut
+            eum
+            saepe molestiae. Sint assumenda dignissimos quae sed nihil amet laborum cumque, aut similique
+            delectus,
+            vitae excepturi. Impedit.
+            Aperiam repellendus, qui tempora praesentium, deserunt illum officiis quae itaque a tempore ipsam ut
+            aut
+            reprehenderit. Atque, rem. Ipsam quidem veniam aspernatur porro aliquid dolorem accusamus officiis
+            numquam,
+            dolorum perferendis!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eius voluptatem nostrum quos
+            perspiciatis tenetur nisi incidunt, rem ipsa in nemo facere exercitationem odio? Quam eligendi
+            adipisci id eius recusandae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi culpa nobis, nihil autem sunt
+            minus nulla tenetur ipsa quae eligendi ea accusamus, repellat nostrum! Rerum illo deleniti nostrum
+            possimus.
+            Ipsum harum ad, repellendus aperiam ullam recusandae saepe minus explicabo odit dolorem, ratione
+            unde dolor fugit. Quia unde, eveniet velit repudiandae blanditiis ipsam quasi. Expedita earum
+            exercitationem repellat cumque tenetur!
+            Vel, quo! Libero amet voluptas ratione, harum totam cumque dolore deleniti! Earum officia,
+            cupiditate inventore asperiores necessitatibus magni! Laudantium placeat minus facilis sint maxime
+            veniam ipsam odit dolorum eaque molestias?
+
+        </p>
+
+        <section id="start" class="animate one">
+            <h2>Start</h2>
+            Corporis repellat cumque amet, tenetur iste consequuntur quam hic minima id exercitationem?
+            Facilis
+            minus
+            eveniet optio veniam, nihil quo. Pariatur provident eum corporis modi. Ipsum sed non odit natus
+
+
+        </section>
+        <section id="about" class="animate two">
+            <h2>O nas</h2>
+            Corporis repellat cumque amet, tenetur iste consequuntur quam hic minima id exercitationem?
+            Facilis
+            minus
+            eveniet optio veniam, nihil quo. Pariatur provident eum corporis modi. Ipsum sed non odit natus
+
+
+        </section>
+
+
+        <section id="news" class="animate three">
+            <h2>Aktualności</h2>
+
+            Esse voluptate mollitia modi cumque dolores, excepturi ea dolore praesentium provident eum. Itaque
+            cupiditate dolores laborum doloribus iure rerum voluptatem tempora veritatis, tempore quia, nesciunt
+            fugiat
+            reiciendis praesentium dolore beatae!
+            Quam culpa assumenda corrupti quo nam asperiores, recusandae iste velit quisquam ipsa vitae incidunt
+            voluptates ratione cum nisi, laudantium ad qui quae tempore labore explicabo quis? Beatae sed id
+            blanditiis.
+            Voluptatem ratione beatae ullam, molestiae aliquid praesentium! Explicabo quo architecto ipsa
+            accusamus
+            sapiente eaque veniam laborum dolore velit. Officia autem dolores earum illo facilis vero,
+            blanditiis
+            ullam
+            quo aspernatur adipisci.
+            Ab laboriosam totam molestias quasi perferendis veniam aut placeat quos error soluta. Inventore nam
+            sequi
+        </section>
+
+
+        <section id="portfolio" class="animate four">
+            <h2>Portfolio</h2>
+
+            Dicta accusantium, nisi saepe ullam blanditiis odit, ducimus expedita ad, natus sit obcaecati
+            pariatur magni
+            voluptate temporibus explicabo quod. Tempore beatae doloribus laborum aperiam amet voluptas
+            eaque
+            fuga
+            aliquam dolores.
+            Earum, nisi quibusdam ipsum, consequuntur doloribus architecto aliquam aspernatur et vero dolore
+            minima
+            perspiciatis harum odit commodi sit ipsa sapiente. Ab sunt, aliquid optio veniam saepe quis
+            aliquam
+            maiores
+            mollitia?
+            Voluptas alias debitis quo ea eligendi neque blanditiis ipsam. A corrupti quis optio fugiat
+            perspiciatis aut
+
+        </section>
+
+
+        <section id="contact" class="animate five">
+            <h2>Kontakt</h2>
+
+
+            corporis at est fugit adipisci labore eum voluptatem. Officiis sunt atque officia maxime sequi!
+            Autem, ipsum ratione modi libero adipisci aliquid eius aliquam minima odit minus magnam dolores
+            aspernatur,
+            cumque, accusantium porro. Fugit culpa nesciunt libero! Adipisci voluptatum doloribus eveniet,
+            molestiae
+            laudantium ipsum! Iure!
+            Veritatis neque dolorum qui voluptates laboriosam voluptatem accusamus magni, aspernatur quo
+            saepe.
+            Id
+            dignissimos consequatur distinctio quaerat beatae officia necessitatibus amet ratione veniam
+            ullam
+            iusto,
+            illo atque, cum natus fugiat!
+            Accusantium ab magni unde? Similique tenetur maxime ipsa cum quis ea omnis earum quia amet
+            repudiandae dolor
+            voluptatum totam, vitae labore, esse enim et facilis eos non eaque! Laborum, quibusdam?
+            Atque cupiditate omnis architecto veniam dolor sed? Delectus aspernatur dolor optio omnis sint
+            ducimus
+            ipsum! Ab, nemo quisquam! Repellat impedit incidunt iure pariatur odio dolorem qui. Minima
+            incidunt
+            hic
+            delectus?
+        </section>
+
+
+        <section id="map" class="animate six">
+            <h2>Map</h2>
+
+            Sed reprehenderit optio sequi explicabo rerum accusantium quia? Ullam delectus soluta recusandae
+            veritatis
+            dignissimos incidunt. Quam nisi, expedita temporibus necessitatibus voluptates tempore sapiente
+            error ea
+            corporis aperiam odit repudiandae ipsam.
+        </section>
+
+
+    </main>
+    <button type="button" class="scrollTotop">^</button>
+    <script>
+        const menu = document.querySelector(".menu__list");
+        const strzalka = document.querySelector(".scrollTotop");
+        let scrollTobottom = "400"; // pozycja menu od góry strony
+        window.addEventListener("scroll", function () {
+            /*
+            w przypadku postron uzyje tego skryoutu
+                          function scroll() {
+                               if (window.scrollY > scrollTobottom) { //jeżli pozycja skorlla jest większa od
+                                   menu.classList.add("fixed")
+                               } else if (window.scrollY < scrollTobottom) {
+                                   menu.classList.remove("fixed");
+
+                               }
+                           }
+                           scroll();
+                        */
+
+            function showStrzalka() {
+                if (window.scrollY > 400) {
+                    strzalka.classList.add("active");
+                } else {
+                    strzalka.classList.remove("active");
+                }
+
+            }
+            showStrzalka();
+
+
+
+        });
+
+        function toTop() {
+
+
+
+            strzalka.addEventListener("click", () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+
+
+
+            });
+
+
+
+        }
+        toTop();
+
+        function toSection() {
+            let hrefu = document.querySelectorAll('a[href^="#"]');
+
+            for (let item of hrefu) {
+                item.addEventListener("click", (e) => {
+
+
+                    const value = item.getAttribute('href');
+                    const heightValue = document.querySelector(value).offsetTop - 200
+
+                    window.scroll({
+                        top: heightValue,
+                        behavior: 'smooth'
+                    });
+
+                    e.preventDefault();
+
+                })
+            }
+
+
+        }
+        toSection()
+
+        function menuBorder() {
+            let hrefu = document.querySelectorAll('.menu__link');
+            hrefu.forEach(element => {
+                element.addEventListener("click", () => {
+                    hrefu.forEach(element => {
+                        element.classList.remove("borderTop");
+                    })
+
+                    element.classList.add("borderTop");
+                });
+            });
+        }
+        menuBorder()
+
+        function scrollMenu() {
+
+            const postitionScroll = window.scrollY;
+
+
+
+            const height2 = document.querySelector("#about").offsetTop
+            const height3 = document.querySelector("#news").offsetTop
+            const height4 = document.querySelector("#portfolio").offsetTop
+            const height5 = document.querySelector("#contact").offsetTop
+            const height6 = document.querySelector("#map").offsetTop
+
+            const liElements = document.querySelectorAll(".menu__link");
+            liElements.forEach(element => {
+                element.classList.remove("borderTop");
+            })
+
+            if (postitionScroll < height2) {
+                const two = document.querySelector(".menu__link-1").classList.add("borderTop")
+
+            } else if (postitionScroll < height3) {
+                const three = document.querySelector(".menu__link-2").classList.add("borderTop")
+
+            } else if (postitionScroll < height4) {
+                const four = document.querySelector(".menu__link-3").classList.add("borderTop")
+
+            } else if (postitionScroll < height5) {
+                const five = document.querySelector(".menu__link-4").classList.add("borderTop")
+
+            } else if (postitionScroll < height6) {
+                const six = document.querySelector(".menu__link-5").classList.add("borderTop")
+            } else {
+                const seven = document.querySelector(".menu__link-6").classList.add("borderTop")
+            }
+        }
+        window.addEventListener("scroll", scrollMenu);
+
+
+
+        function animation() {
+            const scrollPosition = window.scrollY; //pozycja scrolla
+
+            const winHeight = window.outerHeight; //wielkość okna przelgądarki ze zcrollem z boku
+
+            /*one */
+            const block = document.querySelector("#start");
+            const one = document.querySelector(".one");
+            console.log(one);
+            const oneOffset = one.offsetTop // odległość od góry
+            console.log(oneOffset);
+            const oneHeight = one.offsetHeight //wielkośc elementu 
+            console.log(oneHeight);
+
+            /*two*/
+
+
+            const two = document.querySelector(".two");
+            const twoSectionOffest = two.offsetTop;
+            const twoSectionHeight = two.offsetHeight;
+
+            /*three*/
+
+            const news = document.querySelector("#news");
+            const three = document.querySelector(".three");
+            const threeSectionOffest = three.offsetTop
+            const threeSectionHeight = three.offsetHeight
+
+            /*four*/
+            const four = document.querySelector(".four");
+            const fourOffset = four.offsetTop;
+            const fourHeight = four.offsetHeight;
+            /*five*/
+            const five = document.querySelector(".five");
+            const fiveOffset = five.offsetTop;
+            const fiveHeight = five.offsetHeight;
+            /*six*/
+            const six = document.querySelector(".six");
+            const sixOffset = six.offsetTop;
+            const sixHeight = six.offsetHeight;
+            /*end*/
+
+            if (scrollPosition > oneOffset + oneHeight / 2 - winHeight) {
+
+                block.classList.add("fadeIn");
+
+            }
+            /*two section */
+            if (scrollPosition > twoSectionOffest + twoSectionHeight / 2 - winHeight) {
+
+                two.classList.add("fadeIn");
+
+            }
+            /*three section */
+            if (scrollPosition > threeSectionOffest + threeSectionHeight / 2 - winHeight) {
+
+                news.classList.add("fadeIn");
+
+            }
+            /*four section */
+            if (scrollPosition > fourOffset + fourHeight / 2 - winHeight) {
+
+                four.classList.add("fadeIn");
+
+            }
+            /*five section*/
+            if (scrollPosition > fiveOffset + fiveHeight / 2 - winHeight) {
+
+                five.classList.add("fadeIn");
+
+            }
+            /*six section*/
+            /*od winHeight moze odejmowaci i np od pojaw się od płowy sekcj fiveHeight/2*/
+            if (scrollPosition > sixOffset + sixHeight - winHeight) {
+
+                six.classList.add("fadeIn");
+            }
+
+            if (scrollPosition < 100) {
+                const sec = document.querySelectorAll(".animate");
+                sec.forEach(element => {
+
+
+                    element.classList.remove("fadeIn");
+                })
+            }
+
+
+        }
+
+
+
+
+
+
+        window.addEventListener("scroll", animation);
+    </script>
+</body>
+
+</html>

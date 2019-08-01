@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+        }
+
+        .section__item {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button class="add">Dodaj</button><button class="obroc">Obroc</button>
+    <section>
+
+    </section>
+    <script>
+        function addDiv() {
+            const btn = document.querySelector(".add");
+
+            btn.addEventListener("click", () => {
+                const divek = document.createElement("div");
+                divek.classList.add("section__item");
+
+                const sec = document.querySelector("section");
+                sec.appendChild(divek);
+
+            });
+
+        }
+        addDiv();
+
+        function changeDiv() {
+            const change = document.querySelector(".obroc");
+            let valueRotate = 0;
+            let startRotate = 360;
+
+            change.addEventListener("click", () => {
+
+                const diveku = document.querySelectorAll(".section__item");
+                diveku.forEach(element => {
+
+
+                    element.style.transition = "0.5s";
+                    valueRotate += startRotate;
+
+                    element.style.transform = "rotate(" + valueRotate + "deg)";
+                })
+            });
+
+        }
+        changeDiv()
+    </script>
+</body>
+
+</html>

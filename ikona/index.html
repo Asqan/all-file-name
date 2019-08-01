@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .burger img {
+            position: absolute;
+        }
+
+        .icon {
+            opacity: 0;
+
+
+        }
+
+        .show {
+            opacity: 1;
+            animation: showIcon 0.3s;
+
+        }
+
+        aside {
+            top: 80px;
+            position: absolute;
+            left: -100%;
+            width: 200px;
+            transition: 0.5s ease-in-out;
+            background-color: black;
+        }
+
+        aside.active {
+            left: 0;
+        }
+
+        @keyframes showIcon {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="burger"> <img src="https://commart.pl/wp-content/themes/Commart/img/ikony/mobile-menu-button-open.svg"
+            width="80px" height="70px" alt="" class="icon show"> <img
+            src="https://commart.pl/wp-content/themes/Commart/img/ikony/mobile-menu-button-close.svg" width="80px"
+            height="70px" alt="" class="icon hide"></div>
+    <aside>
+        coś tam
+    </aside>
+    <script>
+        const button = document.querySelector(".burger");
+        const menu__close = document.querySelector(".hide");
+        const menu__open = document.querySelector(".show");
+        const aside = document.querySelector("aside");
+
+
+        button.addEventListener("click", () => {
+            menu__close.classList.toggle("show");
+            menu__open.classList.toggle("show");
+            aside.classList.toggle("active");
+
+        })
+    </script>
+</body>
+
+</html>
