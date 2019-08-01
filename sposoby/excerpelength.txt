@@ -1,0 +1,28 @@
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+<?php the_excerpt(); ?>
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+function wpdocs_excerpt_more( $more ) {
+    return '[...]<a href="'.get_the_permalink().'" rel="nofollow" class="read-more">Czytaj wiêcej</a>';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+<section class="our_strategy">
+<h3>Nasza strategia</h3>
+<p class="text_strategy">Na podstawie wieloletniego doœwiadczenia rynkowego Investment Union wyselekcjonowa³o nastêpuj¹ce kluczowe czynniki skutecznych inwestycji:</p>
+
+<ul class="list_strategy">
+ 	<li>Wysoki potencja³ zysku – orientacja na firmach dzia³aj¹cych na rozwijaj¹cych siê rynkach z chêci¹ i zdolnoœci¹ do rozszerzenia dominuj¹cej pozycji rynkowej.</li>
+ 	<li>Firma powinna osi¹gaæ przychody od 5 do 50 milionów dolarów.</li>
+ 	<li>Inwestycje o horyzoncie inwestycyjnym od 3 do 5 lat.</li>
+ 	<li>Korzyœci strukturalne - firma powinna odgrywaæ wa¿n¹ rolê w przemyœle, nie tylko pod wzglêdem finansowym. IU poszukuje firm, które osi¹gnê³y sukces dziêki silnej orientacji na klienta, dominacji na rynkach niszowych oraz doskona³ej redukcji kosztów.</li>
+ 	<li>Zakup wiêkszoœci udzia³ów w spó³kach.</li>
+ 	<li>Zakup firm z niskim poziomem zad³u¿enia.</li>
+ 	<li>Zaanga¿owanie – IU jest aktywne w finansowych, strategicznych i operacyjnych obszarach codziennej dzia³alnoœci firmy.</li>
+ 	<li>Partnerstwo - IU zapewnia przedsiêbiorstwom wiedzê na rynku, utalentowanych mened¿erów i ró¿ne rodzaje us³ug doradczych.</li>
+ 	<li>CSR – IU dba o œrodowisko i spo³ecznoœci lokalne.</li>
+</ul>
+</section>
+Maj2017Wordpress
+<img class="img_strategy" src="http://iu.adserv.pl/wp-content/uploads/2017/07/strategia.png" />

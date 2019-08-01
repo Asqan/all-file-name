@@ -1,0 +1,5 @@
+/*
+Template Name: Oferta <--nazwa strony
+Template Post Type: post, funerals <--nazwa post_type
+*/
+'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields','page-attributes' ),

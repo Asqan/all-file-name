@@ -1,0 +1,12 @@
+.form__work input[type=text],.form__work input[type=password],.form__work input[type=email],.form__work input[type=url],.form__work input[type=date],.form__work input[type=time],.form__work input[type=datetime],.form__work select,.form__work textarea {
+    padding: .5em .6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 55%;
+    font-size: 1em;
+}

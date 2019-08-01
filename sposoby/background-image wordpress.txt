@@ -1,0 +1,1 @@
+<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); echo '<div class="thumbnail-img" style="background: url('. $url. '); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;">projekty</div>';?>

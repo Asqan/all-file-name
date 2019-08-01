@@ -1,0 +1,31 @@
+unction wpb_last_week_posts() { 
+$thisweek = date('W');
+if ($thisweek != 1) :
+$lastweek = $thisweek - 1;   
+else : 
+$lastweek = 52;
+endif; 
+$year = date('Y');
+if ($lastweek != 52) :
+$year = date('Y');
+else: 
+$year = date('Y') -1; 
+endif;
+
+$the_query = new WP_Query( 'year=' . $year . '&w=' . $lastweek . '&posts_per_page=3');
+
+if ( $the_query->have_posts() ) : 
+while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <h2><a href="<?php the_permalink(); ?>" title="Permanent link to <?php the_title(); ?> "><?php the_title(); ?></a></h2>
+	<?php the_excerpt(); ?>
+  <?php endwhile; ?>
+  <?php wp_reset_postdata(); ?>
+<?php else:  ?>
+  <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif;
+
+}
+
+wywo³anie: <?php wpb_last_week_posts(); ?> 
+lub add_shortcode('lastweek', 'wpb_last_week_posts'); 
+i [lastweek]

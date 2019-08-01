@@ -1,0 +1,23 @@
+<?php /* Template Name: Centers */ ?>
+
+<?php get_header(); ?>
+<div class="page__img" style="background-image: url(/wp-content/uploads/2017/09/1920x480b_oúrodki.jpg);display:none;"></div>
+<div class="container">
+    <?php $catquery = new WP_Query( 'tag="osrodek"&posts_per_page=-1' ); ?>
+    <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
+    <?php if ( has_post_thumbnail() ) {?>
+    <article class="single__center" style='background: url("<?php the_post_thumbnail_url(); ?>");'>
+        <?php } else{?>
+        <article class="single__center" style="background: url('https://pi2.tcdn.pl/wd/p/45/Domek-Matuszny-v2_big.jpg');">
+            <?php }?>
+            <div class="center__wrapper">
+                <p class="center__title"><?php the_title(); ?></p>
+                <a href="<?php the_permalink() ?>" class="center__link">
+                    <button class="center__button">Sprawdü</button>
+                </a>
+            </div>
+        </article>
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+        <?php get_footer(); ?>
+</div>

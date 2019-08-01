@@ -1,0 +1,65 @@
+<!-- Szlak pieszy -->
+<!--
+<hr class="style-seven"></hr>
+<section style="overflow:hidden;padding:20px;position:relative;z-index:5;" class="display-padding">
+<h3 class="post">SZLAK PIESZY</h3>
+<div id="two">
+<?php query_posts(array('cat=9','posts_per_page' => 4)); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ 
+<div class="float"><div class="img-parent"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(100,100)); ?></a></div>
+<div class="text-post clearfix">
+<h4 style="font-size:16px;color:black"><?php the_title(); ?></h4>
+<p style="font-size:14px;color:black"><?php echo get_the_date(); ?></p>
+<h6 style="font-size:12px;color:black" class="excerpt"><?php the_excerpt(); ?></h6>
+</div>
+</div>
+<?php endwhile; endif; ?>
+</div>
+</section>
+--
+<!--Szlak pieszy-->
+<!-- Szlak rowerowy -->
+<hr class="style-seven"></hr>
+<section style="overflow:hidden;padding:20px;position:relative;z-index:5;" class="display-padding">
+<h3 class="post">SZLAK ROWEROWY</h3>
+<div id="two">
+<?php query_posts(array('cat=10','posts_per_page' => 4)); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ 
+<div class="float"><div class="img-parent"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(100,100)); ?></a></div>
+<div class="text-post clearfix">
+<h4 style="font-size:16px;color:black"><?php the_title(); ?></h4>
+<p style="font-size:14px;color:black"><?php echo get_the_date(); ?></p>
+<h6 style="font-size:12px;color:black" class="excerpt"><?php the_excerpt(); ?></h6>
+
+</div>
+</div>
+<?php endwhile; endif; ?>
+</div>
+</section>
+<!--Szlak rowerowy-->
+<!-- Szlak Kajakowy -->
+<hr class="style-seven"></hr>
+<section style="overflow:hidden;padding:20px;position:relative;z-index:5;" class="display-padding">
+<h3 class="post">SZLAK KAJAKOWY</h3>
+<div id="two">
+<?php query_posts(array('cat=11','posts_per_page' => 4)); ?>
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ 
+<div class="float"><div class="img-parent"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(100,100)); ?></a></div>
+<div class="text-post clearfix">
+<h4 style="font-size:16px;color:black"><?php the_title(); ?></h4>
+<p style="font-size:14px;color:black"><?php echo get_the_date(); ?></p>
+<h6 style="font-size:12px;color:black" class="excerpt"><?php the_excerpt(); ?></h6>
+
+</div>
+</div>
+<?php endwhile; endif; ?>
+</div>
+</section>
+<hr class="style-seven"></hr>
+<!--Szlak kajakowy-->

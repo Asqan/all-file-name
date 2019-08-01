@@ -1,0 +1,57 @@
+<div class="row">
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="imie">Imiê</label>[text* your-name class:form-control id:imie]
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="nazwisko">Nazwisko</label>[text* your-surname class:form-control id:nazwisko]
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="email">Adres email</label>[email* your-email class:form-control id:email]
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label for="telefon">Telefon</label>[text* your-phone class:form-control id:telefon]
+        </div>
+    </div>
+
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label for="subject">Temat wiadomoœci</label>[text* your-subject class:form-control id:subject]
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label for="wiadomosc">Treœæ wiadomoœci</label>[textarea* your-message class:form-control id:wiadomosc]
+        </div>
+    </div>
+ <div class="clearfix"></div>
+    <div class="col-sm-6 col-xs-12">
+[recaptcha]
+</div>
+   
+    
+    <div class="col-sm-6 col-xs-12">
+        <div class="form-group">
+
+         [submit class:btn class:btn-color class:pull-right class:big-btn "Wyœlij"]
+
+<br>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,5 @@
+<?php if ( !is_page() ): ?> <?php if ( !is_front_page() ): ?>
+
+<?php endif; ?><?php endif; ?>
+
+//wy³¹czanie na front-page i page.php:)

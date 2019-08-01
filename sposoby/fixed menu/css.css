@@ -1,0 +1,990 @@
+/*
+Theme Name: addesigner
+Author: addesigner.pl
+Author URI: addesigner.pl
+Description: addesigner
+Version: 1.0
+*/
+/***-- all styles --***/
+::before,
+::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body * {
+	font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 1px 7px;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+	text-align: center;
+}
+
+section.content {
+	padding: 0 80px;
+}
+
+h2.title__color--navy,
+h2.title__color--blue {
+	text-align: center;
+	margin: 0;
+	position: relative;
+	line-height: 0.8;
+}
+
+h2.title__color--navy {
+	color: #002751;
+	font-size: 3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2.title__color--blue {
+	color: #006cb5;
+	font-size: 3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+section.title {
+	padding: 100px 0;
+	line-height: 0.7;
+}
+
+span.more {
+	background-image: url(/wp-content/uploads/2019/03/przycisk.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: black;
+	color: #002751;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+}
+
+a.link__more {
+	display: flex;
+	justify-content: center;
+	margin-top: 36px;
+}
+
+::-webkit-input-placeholder {
+	padding-left: 5px;
+}
+
+::-moz-placeholder {
+	padding-left: 5px;
+}
+
+:-ms-input-placeholder {
+	padding-left: 5px;
+}
+
+:-moz-placeholder {
+	padding-left: 5px;
+}
+
+input[type=email] {
+	padding-left: 12px;
+}
+
+/*** animation ***/
+/*
+[data-aos=new] {
+	-webkit-transform: translate3d(-50%, -50%, 0) scale(0);
+	transform: translate3d(-50%, -50%, 0) scale(0);
+	transition-delay: .4s;
+	opacity:0;
+}
+html:not(.no-js) [data-aos^=new][data-aos^=new].aos-animate{
+	-webkit-transform: translate3d(-50%, 0, 0) scale(1);
+	transform: translate3d(-50%, 0, 0) scale(1);
+	transition-delay: .4s;
+	opacity:1;
+}
+*/
+[data-aos=new-animation] {
+	opacity: 0;
+	transform: translateX(100px);
+	transition-property: transform, opacity;
+}
+
+[data-aos=new-animation].aos-animate {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+[data-aos=new] {
+	opacity: 0;
+	transition-property: opacity, -webkit-transform;
+	transition-property: opacity, transform;
+	transition-property: opacity, transform, -webkit-transform;
+}
+
+html:not(.no-js) [data-aos^=new][data-aos^=new].aos-animate {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, 0, 0) scale(1);
+	-webkit-transform: none;
+
+}
+
+[data-aos=new_zoom] {
+	-webkit-transform: translate3d(-50%, -50%, 0) scale(0);
+	transform: translate3d(-50%, -50%, 0) scale(0);
+	transition-delay: .4s;
+}
+
+
+html:not(.no-js) [data-aos^=new_zoom][data-aos^=new_zoom].aos-animate {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+	transform: translate3d(-50%, -50%, 0) scale(1);
+	transition-delay: .4s;
+}
+
+header {
+	transform: translateY(-100px);
+	background-color: transparent;
+	position: fixed;
+	padding: 0 80px;
+}
+
+.fixed {
+	animation: smoothScroll 1s forwards;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-100px);
+		-webkit-transition: all 2s ease 1s;
+		-moz-transition: all 2s ease 1s;
+		-ms-transition: all 2s ease 1s;
+		-o-transition: all 2s ease 1s;
+		transition: all 2s ease 1s;
+	}
+
+	100% {
+		transform: translateY(0px);
+		-webkit-transition: all 2s ease 1s;
+		-moz-transition: all 2s ease 1s;
+		-ms-transition: all 2s ease 1s;
+		-o-transition: all 2s ease 1s;
+		transition: all 2s ease 1s;
+	}
+}
+
+/*** menu ***/
+header::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 42, 86, 1);
+	background: -moz-linear-gradient(left, rgba(0, 42, 86, 1) 0%, rgba(0, 53, 103, 1) 23%, rgba(0, 107, 178, 1) 51%, rgba(0, 43, 85, 1) 76%, rgba(0, 41, 84, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 42, 86, 1)), color-stop(23%, rgba(0, 53, 103, 1)), color-stop(51%, rgba(0, 107, 178, 1)), color-stop(76%, rgba(0, 43, 85, 1)), color-stop(100%, rgba(0, 41, 84, 1)));
+	background: -webkit-linear-gradient(left, rgba(0, 42, 86, 1) 0%, rgba(0, 53, 103, 1) 23%, rgba(0, 107, 178, 1) 51%, rgba(0, 43, 85, 1) 76%, rgba(0, 41, 84, 1) 100%);
+	background: -o-linear-gradient(left, rgba(0, 42, 86, 1) 0%, rgba(0, 53, 103, 1) 23%, rgba(0, 107, 178, 1) 51%, rgba(0, 43, 85, 1) 76%, rgba(0, 41, 84, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(0, 42, 86, 1) 0%, rgba(0, 53, 103, 1) 23%, rgba(0, 107, 178, 1) 51%, rgba(0, 43, 85, 1) 76%, rgba(0, 41, 84, 1) 100%);
+	background: linear-gradient(to right, rgba(0, 42, 86, 1) 0%, rgba(0, 53, 103, 1) 23%, rgba(0, 107, 178, 1) 51%, rgba(0, 43, 85, 1) 76%, rgba(0, 41, 84, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a56', endColorstr='#002954', GradientType=1);
+	height: 3px;
+}
+
+section.wrapper__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section.wrapper__menu ul {
+	display: flex;
+	align-items: center;
+}
+
+section.wrapper__menu ul li {
+	padding: 0 15px;
+}
+
+section.wrapper__menu ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+section.wrapper__menu img {
+	width: 52px;
+	height: auto;
+	object-fit: contain;
+}
+
+/*** first section ***/
+.wrapper__logo {
+	position: relative;
+}
+
+.wrapper__logo .page__background--logo .wp-block-image {
+	position: absolute;
+	color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	font-size: 44px;
+	max-width: 300px;
+}
+
+.page__background .page__background--thumbnail img {
+	width: 100vw;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+}
+
+.page__background .container {
+	position: relative;
+}
+
+/*
+body .page__background--logo .wp-block-image {
+	transform: translate(-50%, -64%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 350px;
+}
+*/
+.content .page__background figcaption {
+	color: white;
+	font-size: 20px;
+	margin-top: 0
+}
+
+
+/*** o nas ***/
+.postype__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.postype__content h2 {
+	text-align: center;
+}
+
+.page__aboutus--more {
+	padding: 9px 36px 40px 29px;
+}
+
+.page__aboutus--content a {
+	display: flex;
+	justify-content: left;
+	margin-top: 36px;
+	color: black;
+	text-decoration: none;
+}
+
+.page__aboutus .container {
+	display: flex;
+}
+
+.page__aboutus--content {
+	margin: 24px 0 0 -18px;
+}
+
+.page__aboutus--content p {
+	font-size: 16px;
+	padding: 20px 0;
+	text-align: left;
+}
+
+.page__aboutus--content h2.title__color--navy {
+	margin-left: -359px;
+}
+
+.page__aboutus--thumbnail,
+.page__aboutus--content {
+	max-width: 50%;
+	flex-basis: 50%;
+}
+
+.page__aboutus--thumbnail {
+	margin-top: -86px;
+	position: relative;
+}
+
+/*** Łączymy reklame ***/
+
+.page__offer--content {
+	width: 100%;
+}
+
+.page__offer--content a {
+	color: black;
+	text-decoration: none;
+}
+
+#offer .title__color--navy {
+	margin-left: -341px;
+}
+
+.page__offer--content h2:nth-child(2) {
+	padding-bottom: 100px;
+}
+
+
+
+/*** Wykonane realizacje ***/
+section.title--first h2.title__color--blue {
+	margin-left: -111px;
+}
+
+section.title--first {
+	margin-top: -50px;
+}
+
+.page__gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 14px;
+	column-gap: 17px;
+
+}
+
+.page__gallery--more {
+	padding: 6px 30px 29px 33px;
+}
+
+.page__gallery p {
+	margin: 0;
+}
+
+.link__more {
+	color: black;
+	text-decoration: none;
+}
+
+/*** Zaufali nam ***/
+
+.page__trustedus {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+
+	grid-gap: 32px;
+	transition: all 0.5s ease;
+}
+
+.page__trustedus p a img {
+	filter: grayscale(100%);
+}
+
+.page__trustedus p a img:hover {
+	filter: grayscale(0);
+}
+
+.page__trustedus p {
+	margin: 0;
+}
+
+.page__trustedus img {
+	max-width: 130px;
+}
+
+.page__trustedus--more {
+	padding: 6px 30px 29px 33px;
+}
+
+.title--second h2.title__color--blue {
+	margin-left: 166px;
+}
+
+/*** Kontakt ***/
+.title--third h2.title__color--blue {
+	margin-left: -189px;
+}
+
+.page__contact {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 40px;
+	margin-bottom: -94px;
+}
+
+.wrapper__contactform {
+	position: relative;
+
+}
+
+.wrapper__contactform::before {
+	content: '';
+	position: absolute;
+	top: -3.2px;
+	right: 30px;
+	bottom: -3px;
+	left: -7px;
+	border-top: 1.5px solid #4A8DBB;
+	border-bottom: 1.5px solid #4A8DBB;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	width: calc(100% + 14px);
+}
+
+.wrapper__contactform::after {
+	content: '';
+	position: absolute;
+	top: -9px;
+	right: -3px;
+	bottom: 30px;
+	left: -3px;
+	border-right: 1.5px solid #4A8DBB;
+	border-left: 1.5px solid #4A8DBB;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+	height: calc(100% + 20px);
+}
+
+.contact__form {
+	background-color: black;
+	width: 100%;
+	padding: 0 4px;
+}
+
+.contact__form label {
+	color: white;
+}
+
+.contact__form a,
+.wpcf7-quiz-label {
+	color: white;
+	font-size: 13px;
+}
+
+.contact__form input,
+.contact__form textarea {
+	margin: 2px 0;
+	border: 1px solid;
+}
+
+.contact__form span.wpcf7-list-item {
+	display: inline-block;
+	margin: 5px 0 10px 0;
+	line-height: 0.8;
+}
+
+.contact__form input[type="submit"] {
+	margin-bottom: 5px;
+}
+
+.page__contact .page__contact--center {
+	display: flex;
+	justify-content: center;
+	margin-top: -78px;
+}
+
+.contact .contact__center h4,
+.contact__center--two h4 {
+	margin-bottom: 0;
+}
+
+.contact__center p,
+.contact__center--two p {
+	margin-top: 0;
+}
+
+.contact__center h4:first-of-type,
+.contact__center--two h4:first-of-type {
+	margin-top: 35px;
+	margin-bottom: 0;
+
+}
+
+.contact__center h4:nth-of-type(2) {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+.contact__center--one {
+	width: 300px;
+}
+
+.iframe__wrapper {
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+}
+
+.iframe__wrapper p {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.iframe__wrapper::before,
+.iframe__wrapper::after {
+	content: '';
+	position: absolute;
+}
+
+.iframe__wrapper::before {
+	position: absolute;
+	top: -3.2px;
+	right: 30px;
+	bottom: -3px;
+	left: -7px;
+	border-top: 1.5px solid #4A8DBB;
+	border-bottom: 1.5px solid #4A8DBB;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	width: calc(100% + 14px);
+}
+
+.iframe__wrapper::after {
+	content: '';
+	position: absolute;
+	top: -9px;
+	right: -3px;
+	bottom: 30px;
+	left: -3px;
+	border-right: 1.5px solid #4A8DBB;
+	border-left: 1.5px solid #4A8DBB;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+	height: calc(100% + 20px);
+}
+
+.page__contact iframe {
+	position: relative;
+	z-index: 23;
+}
+
+.wpcf7-form-control-wrap,
+.contact__form input {
+	position: relative;
+	z-index: 25;
+	color: #7f7f7f;
+}
+
+
+/*** stopka ***/
+
+footer {
+
+	font-size: 0;
+	position: relative;
+	z-index: 23;
+}
+
+figure {
+	position: relative;
+	margin: 0;
+}
+
+.footer__image--logo {
+	position: relative;
+}
+
+footer figure {
+	background-image: url(http://newsite.adserv.pl/wp-content/uploads/2019/02/trojkat.png);
+	background-size: cover;
+	width: 100%;
+	height: 154px;
+	background-position: center;
+}
+
+footer span.icon img {
+	position: absolute;
+	left: 50%;
+	z-index: 0;
+	max-width: 272px;
+	bottom: 132px;
+}
+
+footer figure img {
+	position: absolute;
+	top: -6px;
+	z-index: -1;
+}
+
+footer .footer__image--logo span.logo img {
+	position: absolute;
+	left: 50%;
+	transform: translate3d(-50%, 19%, 0);
+	max-width: 125px;
+	z-index: 9;
+}
+
+footer figure figcaption {
+	position: absolute;
+	bottom: 9px;
+	left: 50%;
+	transform: translate(-50%);
+	color: white;
+	z-index: 10;
+	font-size: 12px;
+}
+
+footer span.copyright {
+	font-size: 9px;
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 3px);
+}
+
+/*** page styles ***/
+.page-template .page__contact {
+	margin-top: 106px;
+	margin-bottom: -94px;
+}
+
+.page-template-page-clients li figure img {
+	filter: grayscale(100%);
+	transition: all 0.5s ease;
+}
+
+.page-template-page-clients li figure img:hover {
+	filter: grayscale(0);
+}
+
+.page-template .page__content {
+	position: relative;
+}
+
+.page-template .page__content h2 {
+	position: absolute;
+	top: 0;
+	color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -188%);
+	z-index: 2;
+	font-size: 44px;
+}
+
+.page-template .page__content .page__content--background img {
+	width: 100vw;
+	left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+}
+
+.page-template-page-aboutus .page__aboutus--content {
+	padding: 100px 0;
+	margin: auto;
+}
+
+.page-template-page-aboutus .page__title__color--navy {
+	color: #002751;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*** media ***/
+@media(min-width:1441px) {
+	.page__aboutus .container {
+		max-width: 1160px;
+	}
+
+	.page__contact {
+
+		margin-bottom: -110px;
+	}
+
+	footer figure {
+		height: 215px;
+	}
+
+	footer .footer__image--logo span.logo img {
+		max-width: 178px;
+	}
+
+	footer span.icon img {
+		bottom: 184px;
+	}
+
+
+}
+
+@media(min-width:1200px) {
+	body .container {
+		max-width: 100%;
+	}
+}
+
+@media(min-width:769px) and (orientation:portrait) {
+
+	/*** menu ***/
+	.mobile__menu {
+		display: none;
+	}
+}
+
+@media(max-width:767px) and (orientation:portrait) {
+
+	/*** menu ***/
+	.mobile__menu {
+		display: block;
+	}
+
+	.mobile__menu .bar {
+		width: 30px;
+		height: 1px;
+		background: black;
+		display: block;
+	}
+
+	.bar+.bar {
+		margin-top: 5px;
+	}
+
+	.mobile__menu--wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mobile__menu--wrapper ul#menu-glowne-menu {
+		position: absolute;
+		display: none;
+		height: auto;
+		width: 100%;
+		left: 0px;
+		background-color: black;
+		top: 58px;
+	}
+}
+
+@media(max-width:480px) and (orientation:portrait) {
+
+	/*** all styles ***/
+	section.title {
+		padding: 50px 0;
+	}
+
+	.content {
+		overflow: hidden;
+	}
+
+	h2.title__color--navy,
+	h2.title__color--blue {
+		margin: 0 !important;
+		font-size: 2em !important;
+	}
+
+	section.content {
+		padding: 0 10px;
+	}
+
+	/*** menu ***/
+	section.wrapper__menu ul {
+		flex-direction: column;
+	}
+
+	header {
+		padding: 0 19px;
+	}
+
+	/*** first section ***/
+
+
+	.page__background--logo .wp-block-image figure {
+		text-align: center;
+	}
+
+	.page__background--logo .wp-block-image figure img {}
+
+	.page__background .page__background--thumbnail img {
+		height: 300px;
+		object-fit: cover;
+	}
+
+	.content .page__background figcaption {
+		font-size: 18px;
+	}
+
+	/*** o nas ***/
+	.page__aboutus .container {
+		flex-direction: column;
+	}
+
+	.page__aboutus--content {
+		margin: 24px 0;
+	}
+
+	.page__aboutus--content a {
+		justify-content: center;
+	}
+
+	.page__aboutus--thumbnail,
+	.page__aboutus--content {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+
+	.page__aboutus--thumbnail {
+		margin-top: -46px;
+	}
+
+	/*** Łączymy reklame ***/
+	/*** Wykonane realizacje ***/
+	.page__gallery {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+		column-gap: 0px;
+	}
+
+	/*** Zaufali nam ***/
+	.page__trustedus {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.page__trustedus p {
+		text-align: center;
+	}
+
+	/*** stopka ***/
+	.page__contact {
+		grid-template-columns: 1fr;
+		margin-bottom: 0px;
+	}
+
+	.page__contact .page__contact--center {
+		flex-direction: column;
+		order: 1;
+		margin-top: 0;
+	}
+
+	.page__contact .wpcf7 {
+		order: 2;
+	}
+
+	.page__contact .iframe__wrapper {
+		order: 3;
+	}
+
+	footer .footer__image--logo span.logo img {
+		transform: translate3d(-50%, 38%, 0);
+		max-width: 61px;
+	}
+
+	footer figure {
+		height: 83px;
+		margin-top: 138px;
+	}
+
+	footer figure figcaption {
+		bottom: 4px;
+		font-size: 9px;
+	}
+
+	footer span.icon img {
+		max-width: 100px;
+		bottom: 71px;
+	}
+
+	.contact__center--one {
+		display: none;
+	}
+
+	.contact__center h4:first-of-type,
+	.contact__center--two h4:first-of-type {
+		margin-top: 10px;
+	}
+
+	.contact__center h4:nth-of-type(2) {
+		margin: 0;
+	}
+
+	.wrapper__contactform,
+	.iframe__wrapper {
+		width: 95%;
+		margin: auto;
+	}
+
+	.wrapper__contactform,
+	.iframe__wrapper {
+		height: 95%;
+	}
+
+	/*** page ***/
+	.page-template h2.title__color--blue {
+		font-size: 2em;
+	}
+
+	.page-template .page__title__color--navy {
+		font-size: 1.3em;
+	}
+
+	.page-template .page__contact {
+		margin: 0
+	}
+
+	.page-template-page-aboutus .page__aboutus--content {
+		padding: 20px 0;
+
+	}
+
+	.page-template .wp-block-gallery .blocks-gallery-item figure {
+		justify-content: center;
+	}
+
+	.page-template .page__content h2 {
+		transform: translate(-50%, -162%);
+		width: 100%;
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.page-template .page__content .page__content--background img {
+		height: 200px;
+	}
+
+
+
+
+}

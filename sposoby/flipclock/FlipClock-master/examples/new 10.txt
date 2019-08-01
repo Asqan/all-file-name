@@ -1,0 +1,15 @@
+<div class="slider">
+
+<?php
+$posts = get_posts(array(
+'include' => 46,
+'post_type' => 'any',
+'numberposts' => 1,
+'suppress_filters' => false,
+
+));
+
+echo apply_filters('the_content' ,$posts[0]->post_content);
+?>
+
+</div>

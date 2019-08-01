@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?domena-stara\.pl [NC]
+RewriteRule (.*) http://domena-nowa.pl/$1 [R=301,L]

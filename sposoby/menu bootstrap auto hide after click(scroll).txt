@@ -1,0 +1,5 @@
+jQuery(document).ready(function(){
+jQuery('.navbar-collapse a').click(function(){
+    jQuery(".navbar-collapse").collapse('hide');
+});
+});

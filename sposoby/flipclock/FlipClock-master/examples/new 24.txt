@@ -1,0 +1,2030 @@
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar2" data-toggle="collapse" data-parent="#accordionczar">MARINA ŚWINOUJŚCIE</a></h4>
+</div>
+<div id="collapseczar2" class="panel-collapse collapse">
+<div class="panel-body">
+
+<!--marin świnoujście-->
+<div id="accordionczar2" class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar22" data-toggle="collapse" data-parent="#accordionczar2">Sun Odyssey 379 - Świnoujście <span style="color: red;">DODATKOWO: pościel, sztormiaki, kurs SRC w cenie czarteru!!!</span></a></h4>
+</div>
+<div id="collapseczar22" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Sun Odyssey 379 wyróżnia komfort i łatwość obsługi. Projektanci posłużyli się designem użytym wcześniej w modelu Sun Odyssey 409, przyjętym bardzo dobrze przez klientów i przedstawicieli mediów, którzy przyznali mu tytuł Europejskiego Jachtu Roku (European Yacht of the Year). Na fali sukcesu swojego większego brata, Sun Odyssey 379 został właśnie nominowany do tej samej nagrody! Pomimo swoich niewielkich rozmiarów posiada dwa koła sterowe, które ułatwiają jego prowadzenie oraz poprawiają ergonomię w kokpicie.</p>
+<strong class="margin-cruises">Port macierzysty:Marina Świnoujście</strong>
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong> SPECYFIKACJA</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość całkowita -</td>
+<td class="relation"><strong>11,34 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Długość linii wodnej (KLW) -</td>
+<td class="relation"><strong>10,34 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><strong>3,76 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><strong>1,95 m / 1,50 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Wyporność -</td>
+<td class="relation"><strong>6700 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Masa balastu -</td>
+<td class="relation"><strong>2039 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Powierzchnia ożaglowania -</td>
+<td class="relation"><strong>70 m<sup>2</sup></strong></td>
+</tr>
+<tr>
+<td class="relation">Wysokość masztu -</td>
+<td class="relation"><strong>17 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Moc silnika -</td>
+<td class="relation"><strong>29 KM</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa (diesel) -</td>
+<td class="relation"><strong>130 L</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody -</td>
+<td class="relation"><strong>615 L</strong></td>
+</tr>
+<tr>
+<td class="relation">Wysokość pod pokładem -</td>
+<td class="relation"><strong>1,95 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Ilość kabin -</td>
+<td class="relation"><strong>3</strong></td>
+</tr>
+<tr>
+<td class="relation">Ilość koi -</td>
+<td class="relation"><b>8</b></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2014</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 799,798,797,796,795,794,793,792,791,790" limit="10" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+
+https://www.youtube.com/watch?v=KulEU1hNw1I
+
+</div>
+</div>
+<div id="accordionczar3" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar33" data-toggle="collapse" data-parent="#accordionczar3">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar33" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+&nbsp;
+<ul type="square">
+ 	<li>Koło sterowe z konsolą na instrumenty oraz sterowaniem silnikiem</li>
+ 	<li>Opuszczana platforma rufowa z prysznicem</li>
+ 	<li>Pokład wyłożony strukturą antypoślizgową zapewniający bezpieczne poruszanie się po jachcie</li>
+ 	<li>Siedziska kokpitu wyłożona drzewem teakowym</li>
+ 	<li>Stół ze schowkiem w kokpicie</li>
+ 	<li>Prysznic z ciepłą woda przy opuszczanej platformie kąpielowej</li>
+ 	<li>Winda kotwiczna z kotwicą i łańcuchem</li>
+ 	<li>Kabestany 2 biegowe samo-wybierające – 4 szt.</li>
+ 	<li>Szprycbuda</li>
+</ul>
+<strong class="blue-heading">NAWIGACJA</strong>
+<ul type="square">
+ 	<li>Ploter map z GPS wraz z elektroniczną mapą dla całego rejonu pływania</li>
+ 	<li>Wiatromierz</li>
+ 	<li>Log z echosondą</li>
+ 	<li>Radio VHF z DSC</li>
+ 	<li>Autopilot</li>
+ 	<li>AIS dwukierunkowy</li>
+ 	<li>Barometr</li>
+ 	<li>Lornetka</li>
+ 	<li>Przybory nawigacyjne</li>
+ 	<li>Mapy papierowe dla rejonu pływania</li>
+</ul>
+</div>
+<div class="col-md-6 col-xs-12">
+
+<strong class="blue-heading">OŻAGLOWANIE</strong>
+<ul type="square">
+ 	<li>Grot na pełzaczach z systemem refowania z kokpitu</li>
+ 	<li>Fok rolowany na sztagu</li>
+</ul>
+<strong class="blue-heading">BEZPIECZEŃSTWO</strong>
+<ul type="square">
+ 	<li>Pneumatyczna tratwa ratunkowa 8 osobowa</li>
+ 	<li>Kapoki pneumatyczne z oświetleniem</li>
+ 	<li>Koło ratunkowe z pławą świetlną – 2 szt.</li>
+ 	<li>Zestaw pirotechniki do wzywania pomocy</li>
+ 	<li>Reflektor radarowy</li>
+ 	<li>Radiopława naprowadzająca EPIRB</li>
+</ul>
+<strong class="blue-heading">WNĘTRZE</strong>
+<ul type="square">
+ 	<li>Wszystkie luki o okna wyposażone w moskitiery oraz rolety</li>
+ 	<li>Stolik nawigacyjny z szafką na laptopa</li>
+ 	<li>Odtwarzacz FM/CD/MP3 z głośnikami w mesie</li>
+ 	<li>Kuchenka gazowa 2 palnikowa</li>
+ 	<li>Piekarnik gazowy</li>
+ 	<li>Pojemna lodówka</li>
+ 	<li>Zlew z ciepłą wodą</li>
+ 	<li>WC „morskie” ze zbiornikiem</li>
+ 	<li>Prysznic z ciepłą wodą</li>
+ 	<li>Umywalka z ciepłą wodą</li>
+ 	<li>Ogrzewanie nadmuchowe 4KW zasilane paliwem diesla</li>
+ 	<li>Ręczna i automatyczna pompa zęzowa</li>
+ 	<li>Zbiornik wody 615L</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar34" data-toggle="collapse" data-parent="#accordionczar3">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar34" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 29.04.2017</td>
+<td class="relation"><b>4600zł</b></td>
+</tr>
+<tr>
+<td class="relation">29.04.2017 - 06.05.2017 -</td>
+<td class="relation"><b>6550zł</b></td>
+</tr>
+<tr>
+<td class="relation">06.05.2017 - 20.05.2017 -</td>
+<td class="relation"><strong>5500 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">20.05.2017 - 10.06.2017 -</td>
+<td class="relation"><strong>6500 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.06.2017 – 02.09.2017 -</td>
+<td class="relation"><strong>7100 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">02.09.2017 – 09.09.2017 -</td>
+<td class="relation"><strong>6200 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">09.09.2017 - 16.09.2017 -</td>
+<td class="relation"><strong>5350 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">16.09.2017 - 30.09.2017 -</td>
+<td class="relation"><strong>4550 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 30.09.2017 -</td>
+<td class="relation"><strong>4250 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>OPŁATY DODATKOWE </strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>4000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+<!--pierwszy accoridion-->
+
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar23" data-toggle="collapse" data-parent="#accordionczar2">Bavaria Cruiser 37 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar23" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Oddajemy do państwa dyspozycji sprawdzony na Bałtyku, pełnomorski jacht Bavaria Cruiser 37. Rozwinięcie poprzedniego modelu Bavaria Cruiser 37. Główne zauważalne różnice to, lekkie kosmetyczne wydłużenie kadłuba połączone ze mianą zabudowy części rufowej kokpitu i układu sterowania przechodząca na dwa koła sterowe oraz zmiany kształtu okien nadbudówki. Jachty Bavaria od lat cieszą się bardzo dużym powodzeniem wśród osób czarterujących je na Bałtyku i Morzu Śródziemnym. Bardzo szybko zyskały miano jednostek bezpiecznych i łatwych w manewrowaniu portowym. Oferowany przez nas model, jako jeden z pierwszych z nowej linii (opracowanej przez znaną pracownie projektową Farr Yacht Design) zyskał także wspaniałe właściwości nautyczne. Wszystko to w połączeniu z właściwie dobranym żaglowaniem pozwala osiągać doskonałe wyniki na wodzie.</p>
+<strong class="margin-cruises">Port macierzysty:Marina Świnoujście</strong>
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>SPECYFIKACJA</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość całkowita -</td>
+<td class="relation"><strong>11,30 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Długość linii wodnej (KLW) -</td>
+<td class="relation"><strong>10,22 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><strong>3,67 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><strong>1,95 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Wyporność -</td>
+<td class="relation"><strong>7000kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Masa balastu -</td>
+<td class="relation"><strong>2080 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Powierzchnia ożaglowania -</td>
+<td class="relation"><strong>69 m<sup>2</sup></strong></td>
+</tr>
+<tr>
+<td class="relation">Wysokość masztu -</td>
+<td class="relation"><strong>16,95 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Moc silnika -</td>
+<td class="relation"><strong>19 KM</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa (diesel) -</td>
+<td class="relation"><strong>150 L</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody -</td>
+<td class="relation"><strong>210 L</strong></td>
+</tr>
+<tr>
+<td class="relation">Wysokość pod pokładem -</td>
+<td class="relation"><strong>1,90 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Ilość kabin -</td>
+<td class="relation"><strong>3</strong></td>
+</tr>
+<tr>
+<td class="relation">Ilość koi -</td>
+<td class="relation"><b>8</b></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2014</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 1147,1146,1145,1144,1143,1142,1141,1140,1139,1138,1137,1136,1135,1134,1133,1132" limit="29" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+
+<iframe src="https://www.youtube.com/embed/cX12CWtcAOg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+</div>
+</div>
+<div id="accordionczar4" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar35" data-toggle="collapse" data-parent="#accordionczar4">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar35" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong class="blue-heading">ZEWNĘTRZNE / POKŁADOWE</strong>
+<ul type="square">
+ 	<li>Koło sterowe z konsolą na instrumenty oraz sterowaniem silnikiem</li>
+ 	<li>Opuszczana platforma rufowa z prysznicem</li>
+ 	<li>Pokład wyłożony strukturą antypoślizgową zapewniający bezpieczne poruszanie się po jachcie</li>
+ 	<li>Siedziska kokpitu wyłożona drzewem teakowym</li>
+ 	<li>Stół ze schowkiem w kokpicie</li>
+ 	<li>Prysznic z ciepłą woda przy opuszczanej platformie kąpielowej</li>
+ 	<li>Winda kotwiczna z kotwicą i łańcuchem</li>
+ 	<li>Kabestany 2 biegowe samo-wybierające – 4 szt.</li>
+ 	<li>Szprycbuda</li>
+</ul>
+<strong class="blue-heading">OŻAGLOWANIE</strong>
+<ul type="square">
+ 	<li>Grot rolowany do masztu umożliwiający bardzo łatwe zmniejszenie jego powierzchni (refowanie)</li>
+ 	<li>Fok rolowany na sztagu</li>
+</ul>
+<strong class="blue-heading">BEZPIECZEŃSTWO</strong>
+<ul type="square">
+ 	<li>Pneumatyczna tratwa ratunkowa 8 osobowa</li>
+ 	<li>Kapoki pneumatyczne z oświetleniem</li>
+ 	<li>Koło ratunkowe z pławą świetlną – 2 szt.</li>
+ 	<li>Zestaw pirotechniki do wzywania pomocy</li>
+ 	<li>Reflektor radarowy</li>
+ 	<li>Radiopława naprowadzająca EPIRB</li>
+</ul>
+</div>
+<div class="col-md-6 col-xs-12">
+
+<strong class="blue-heading">NAWIGACJA</strong>
+<ul type="square">
+ 	<li>Ploter map z GPS wraz z elektroniczną mapą dla całego rejonu pływania</li>
+ 	<li>Wiatromierz</li>
+ 	<li>Log z echosondą</li>
+ 	<li>Radio VHF z DSC</li>
+ 	<li>Autopilot</li>
+ 	<li>AIS dwukierunkowy</li>
+ 	<li>Barometr</li>
+ 	<li>Lornetka</li>
+ 	<li>Przybory nawigacyjne</li>
+ 	<li>Mapy papierowe dla rejonu pływania</li>
+</ul>
+<strong class="blue-heading">WNĘTRZE</strong>
+<ul type="square">
+ 	<li>Wszystkie luki o okna wyposażone w moskitiery oraz rolety</li>
+ 	<li>Stolik nawigacyjny z szafką na laptopa</li>
+ 	<li>Odtwarzacz FM/CD/MP3 z głośnikami w mesie</li>
+ 	<li>Kuchenka gazowa 2 palnikowa</li>
+ 	<li>Piekarnik gazowy</li>
+ 	<li>Pojemna lodówka</li>
+ 	<li>Zlew z ciepłą wodą</li>
+ 	<li>WC „morskie” ze zbiornikiem</li>
+ 	<li>Prysznic z ciepłą wodą</li>
+ 	<li>Umywalka z ciepłą wodą</li>
+ 	<li>Ogrzewanie nadmuchowe 4KW zasilane paliwem diesla</li>
+ 	<li>Ręczna i automatyczna pompa zęzowa</li>
+ 	<li>Zbiornik wody 615L</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar36" data-toggle="collapse" data-parent="#accordionczar4">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar36" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+
+&nbsp;
+
+&nbsp;
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 23.04.2016 -</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016 -</td>
+<td class="relation"><strong>5850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016 -</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016 -</td>
+<td class="relation"><strong>5950 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016 -</td>
+<td class="relation"><strong>6550 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016 -</td>
+<td class="relation"><strong>5650 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016 -</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016 -</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016 -</td>
+<td class="relation"><strong>3850 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>
+OPŁATY DODATKOWE</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>5000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar24" data-toggle="collapse" data-parent="#accordionczar2">Delphia 37.3 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar24" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Delphia VIII to jacht typu Delphia 37.3 w wersji 3-kabinowej. Jest bezpiecznym i wygodnym cruiserem rodzinnym, na którego pokładzie w komfortowych warunkach może żeglować 7 osób (karta bezpieczeństwa dopuszcza 8 osób).</p>
+<strong class="margin-cruises">Port macierzysty:Marina Świnoujście</strong>
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>SPECYFIKACJA</strong>
+
+&nbsp;
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość -</td>
+<td class="relation"><strong>10.74 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><strong>3.61 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><strong>1.98 m</strong></td>
+</tr>
+<tr>
+<td class="relation">Ciężar</td>
+<td class="relation"><strong>6400 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Balast -</td>
+<td class="relation"><strong>1850 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Silnik -</td>
+<td class="relation"><strong>38 kM</strong></td>
+</tr>
+<tr>
+<td class="relation">Grot -</td>
+<td class="relation"><strong>30.00 m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Genua -</td>
+<td class="relation"><strong>39.00 m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa -</td>
+<td class="relation"><strong>130 l</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody pitnej -</td>
+<td class="relation"><strong>230 l</strong></td>
+</tr>
+<tr>
+<td class="relation">Kategoria -</td>
+<td class="relation"><strong>A</strong></td>
+</tr>
+<tr>
+<td class="relation">Projektant -</td>
+<td class="relation"><strong>Andrzej Skrzat</strong></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2012</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 1158,1157,1156,1155,1154,1153,1152,1151,1150,1149" limit="29" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+<table class="respo">
+<tbody>
+<tr>
+<td class="relation" align="center" valign="middle"><strong><a target="_blank">Kliknij aby zobaczyć materiały video</a></strong></td>
+<td class="relation"><a target="_blank"><img src="http://www.tadekduch.pl/images/phocagallery/grafika_strony/video.png" alt="Video" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="accordionczar123" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar469" data-toggle="collapse" data-parent="#accordionczar123">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar469" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<b>POKŁAD</b>
+<ul>
+ 	<li>Kolor biały</li>
+ 	<li>Okucie dziobnicy z pojedynczą rolką kotwiczną</li>
+ 	<li>Kosz dziobowy i kosze rufowe ze światłami nawigacyjnymi typu LED</li>
+ 	<li>Luk kotwiczny z dodatkowym wzmocnieniem na windę kotwiczną</li>
+ 	<li>Aluminiowa listwa odbojowa z sześcioma półkluzami</li>
+ 	<li>Knagi cumownicze: dziobowe, centralne i rufowe</li>
+ 	<li>8 słupków relingowych z podwójnym relingiem</li>
+ 	<li>1 duży i 6 małych luków otwieranych</li>
+ 	<li>Okna panoramiczne z barwionego plexi</li>
+ 	<li>2 handrelingi</li>
+ 	<li>2 pięciokrotne bloki zwrotne</li>
+ 	<li>2 szyny genuy z wózkami</li>
+ 	<li>Łożyskowany wózek talii grota</li>
+ 	<li>2 kabestany 40</li>
+ 	<li>Winda kotwiczna 1000W Quick</li>
+ 	<li>Kotwica Delta 16 kg z 50 m 8mm łańcuchem galwanizowanym</li>
+ 	<li>6 odbijaczy</li>
+ 	<li>4 liny cumownicze</li>
+ 	<li>flagsztok</li>
+</ul>
+<b>KOKPIT</b>
+<ul>
+ 	<li>Przestronny samo-odpływowy kokpit z czterema bakistami</li>
+ 	<li>Suwklapa i 2 częściowa sztorc-klapa z plexi</li>
+ 	<li>2 otwierane luki w kabinach rufowych</li>
+ 	<li>2 trzykrotne i 2 dwukrotne stopery lin</li>
+ 	<li>2 samowybierające kabestany No. 46.2 STA</li>
+ 	<li>2 korby kabestanowe</li>
+ 	<li>Podłoga i siedzenia w teaku</li>
+ 	<li>Bakista na dwie butle gazowe, instalacja gazowa 3/8, tester wycieku gazu</li>
+ 	<li>Kolumna sterowa z kołem 1200 mm, większą główką, relingiem i kompasem</li>
+ 	<li>Panel sterujący silnikaRumpel awaryjny</li>
+ 	<li>Platforma kąpielowa w teaku z drabinką</li>
+ 	<li>Szprycbuda kolor ciemno</li>
+ 	<li>Stolik w kokpicie3 inox /laminat</li>
+</ul>
+<b>TAKIELUNEK</b>
+<ul>
+ 	<li>Maszt</li>
+ 	<li>Bom z napinaczem</li>
+ 	<li>Genua rolowana</li>
+ 	<li>Grot listwy krótkie, z dwoma refami</li>
+ 	<li>Światło kotwiczne, silnikowe i oświetlenie pokładu</li>
+ 	<li>Grot pełnolistwowy z wózkami MDS, takielunek Selden</li>
+ 	<li>Lazy bag- kolor ciemno-szary, fok sztormowy</li>
+ 	<li>Wiatromierz ( wskaźnik wiatru)</li>
+</ul>
+<b>WNĘTRZE</b>
+<ul>
+ 	<li>Dostawka spania w messie (po stronie kambuza)</li>
+ 	<li>Wybudowa wnętrza w czereśni, drewno naturalne, nieznacznie może różnić się odcieniem, lakier matowy, poziome (kremowe) paski na grodziach</li>
+ 	<li>Podwójne szafki w messie</li>
+ 	<li>Kabina dziobowa z dwuosobową koją</li>
+ 	<li>Stolik nawigacyjny w messie</li>
+ 	<li>Toaleta elektryczna</li>
+ 	<li>3 kabiny z szafkami</li>
+ 	<li>Tapicerka w kolorze brązowym</li>
+</ul>
+</div>
+<div class="col-md-6 col-xs-12">
+
+<b>KADŁUB</b>
+
+&nbsp;
+<ul>
+ 	<li>Kolor grafitowy</li>
+ 	<li>Białe pasy linii wodnej na kadłubie</li>
+ 	<li>Balast żeliwny</li>
+ 	<li>Łożyskowany ster</li>
+</ul>
+<b>KAMBUZ</b>
+<ul>
+ 	<li>Podwójny zlew z pokrywami na komory</li>
+ 	<li>Kuchenka 2-palnikowa z piekarnikiem</li>
+ 	<li>Lodówka 75 L chłodzona powietrzem</li>
+ 	<li>Półki na naczynia</li>
+ 	<li>Kran z ciepłą i zimną wodą</li>
+ 	<li>Blat (jasny kolor)</li>
+ 	<li>Gaśnica</li>
+ 	<li>Kosz na śmieci</li>
+ 	<li>Składany stolik teakowy</li>
+</ul>
+<b>INSTALACJA ELEKTRYCZNA</b>
+<ul>
+ 	<li>Tablica elektryczna, wskaźnik stanu naładowania baterii, poziomu zbiornika wody, fekaliów, paliwa</li>
+ 	<li>Wyłączniki prądu</li>
+ 	<li>Ładowarka 230V/12V/40A z kablem 17 mb zakończonym wtyczką</li>
+ 	<li>Oświetlenie wnętrza typu LED</li>
+ 	<li>3 gniazda 230 V (stolik nawigacyjny, łazienka, kambuz)</li>
+ 	<li>1 gniazdo 12 V</li>
+ 	<li>Akumulatory życiowe 2 x 100 Ah, akumulator rozruchowy 1 x 80 Ah</li>
+</ul>
+<b>INSTALACJA WODNA</b>
+<ul>
+ 	<li>Zbiornik wody pitnej 230 L</li>
+ 	<li>Instalacja ciepłej wody</li>
+ 	<li>Ciśnieniowa instalacja wody</li>
+ 	<li>1 elektryczna pompa zęzowa</li>
+ 	<li>1 ręczna pompa zęzowa</li>
+</ul>
+<b>SILNIK</b>
+<ul>
+ 	<li>Volvo Penta D2-40, S-drive</li>
+ 	<li>3-płatowa stała śruba napędowa 17x12 do D2-40sd</li>
+ 	<li>Wygłuszenie 30 mm 100 kg/m³</li>
+ 	<li>Zbiornik paliwa 130 L</li>
+ 	<li>Automatyczna gaśnica przedziału silnika</li>
+</ul>
+<b>RATOWNICTWO</b>
+<ul>
+ 	<li>Środki ratunkowe dla 8 osób</li>
+ 	<li>Pneumatyczne pasy ratunkowe</li>
+</ul>
+<b>ELEKTRONIKA</b>
+<ul>
+ 	<li>Webasto Top Air 5500</li>
+ 	<li>Garmin GMI 10, czujnik prędkości, temperatury, głębokości</li>
+ 	<li>Garmin GWS 10</li>
+ 	<li>Garmin GPS Map 720 Chartplotter</li>
+ 	<li>AIS 600 Garmin,</li>
+ 	<li>Garmin VHF 200i</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar479" data-toggle="collapse" data-parent="#accordionczar123">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar479" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+
+&nbsp;
+
+&nbsp;
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 23.04.2016 -</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016 -</td>
+<td class="relation"><strong>5850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016 -</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016 -</td>
+<td class="relation"><strong>5950 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016 -</td>
+<td class="relation"><strong>6550 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016 -</td>
+<td class="relation"><strong>5650 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016 -</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016 -</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016 -</td>
+<td class="relation"><strong>3850 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>
+OPŁATY DODATKOWE</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>5000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar39" data-toggle="collapse" data-parent="#accordionczar2">Cobra 38 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar39" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Premiera jachtu Cobra 38 na targach Wiatr i Woda</p>
+w Warszawie 10-13 marca 2016
+
+<strong class="margin-cruises">Port macierzysty:Marina Świnoujście</strong>
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>SPECYFIKACJA</strong>
+
+&nbsp;
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość całkowita (LOA) -</td>
+<td class="relation"><strong>11,35m</strong></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><strong>3,85m</strong></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><strong>2,05m</strong></td>
+</tr>
+<tr>
+<td class="relation">Ciężar -</td>
+<td class="relation"><strong>6900 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Balast -</td>
+<td class="relation"><strong>1700 kg</strong></td>
+</tr>
+<tr>
+<td class="relation">Silnik -</td>
+<td class="relation"><strong>29 kM</strong></td>
+</tr>
+<tr>
+<td class="relation">Grot -</td>
+<td class="relation"><strong>32,15m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Powierzchnia żagla fok -</td>
+<td class="relation"><strong>26,0m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Genua -</td>
+<td class="relation"><strong>31,30m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Powierzchnia żagla genaker -</td>
+<td class="relation"><strong>110,00m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa -</td>
+<td class="relation"><strong>90 l</strong></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody pitnej -</td>
+<td class="relation"><strong>200 l</strong></td>
+</tr>
+<tr>
+<td class="relation">Pojemność zbiornika wody szarej -</td>
+<td class="relation"><strong>40 l</strong></td>
+</tr>
+<tr>
+<td class="relation">Kategoria -</td>
+<td class="relation"><strong>A</strong></td>
+</tr>
+<tr>
+<td class="relation">Projektant -</td>
+<td class="relation"><strong>Andrzej Skrzat</strong></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2016</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 1161,1160" limit="29" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+<table class="respo">
+<tbody>
+<tr>
+<td class="relation" align="center" valign="middle"><a target="_blank"><strong>Kliknij aby zobaczyć materiały video</strong></a></td>
+<td class="relation"><a target="_blank"><img src="http://www.tadekduch.pl/images/phocagallery/grafika_strony/video.png" alt="Video" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="accordionczar5" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar40" data-toggle="collapse" data-parent="#accordionczar5">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar40" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+&nbsp;
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar41" data-toggle="collapse" data-parent="#accordionczar5">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar41" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+
+&nbsp;
+
+&nbsp;
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 23.04.2016 -</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016</td>
+<td class="relation"><strong>5850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016</td>
+<td class="relation"><strong>5950 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016</td>
+<td class="relation"><strong>6550 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016</td>
+<td class="relation"><strong>5650 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016</td>
+<td class="relation"><strong>4850 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016</td>
+<td class="relation"><strong>4150 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016</td>
+<td class="relation"><strong>3850 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>
+OPŁATY DODATKOWE</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>5000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar26" data-toggle="collapse" data-parent="#accordionczar2">Delphia 40.3 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar26" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Delphia X - typ Delphia 40.3 w wersji 4-kabinowej to szybki, bezpieczny i sterowny jacht, na którego pokładzie w wygodnych warunkach może żeglować 8 osób (karta bezpieczeństwa dopuszcza 10 osób).</p>
+<strong class="margin-cruises">Port macierzysty:Marina Świnoujście</strong>
+
+&nbsp;
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>SPECYFIKACJA</strong>
+
+&nbsp;
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość / Długość Linii Wodnej -</td>
+<td class="relation"><b>11.95 m / 11.05 m</b></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><b>3.94 m</b></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><b>2.27 m</b></td>
+</tr>
+<tr>
+<td class="relation">Ciężar -</td>
+<td class="relation"><b>8600 kg</b></td>
+</tr>
+<tr>
+<td class="relation">Balast -</td>
+<td class="relation"><b>2760 kg</b></td>
+</tr>
+<tr>
+<td class="relation">Moc silnika -</td>
+<td class="relation"><b>55 kM</b></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa -</td>
+<td class="relation"><b>210 L</b></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody -</td>
+<td class="relation"><b>320 L</b></td>
+</tr>
+<tr>
+<td class="relation">Grot -</td>
+<td class="relation"><b>33.00 m2</b></td>
+</tr>
+<tr>
+<td class="relation">Genua -</td>
+<td class="relation"><strong>41.60 m2</strong></td>
+</tr>
+<tr>
+<td class="relation">Kategoria -</td>
+<td class="relation"><strong>A - 10 os.</strong></td>
+</tr>
+<tr>
+<td class="relation">Projektant -</td>
+<td class="relation"><strong>Andrzej Skrzat</strong></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2014</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 1169,1168,1167,1166,1165,1164,1163,1162" limit="29" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+<table class="respo">
+<tbody>
+<tr>
+<td class="relation" align="center" valign="middle"><a target="_blank"><strong>Kliknij aby zobaczyć materiały video</strong></a></td>
+<td class="relation"><a target="_blank"><img src="http://www.tadekduch.pl/images/phocagallery/grafika_strony/video.png" alt="Video" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="accordionczar6" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar42" data-toggle="collapse" data-parent="#accordionczar6">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar42" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<b>KADŁUB</b>
+<ul>
+ 	<li>Kolor biały</li>
+ 	<li>Pasy linii wodnej na kadłubie</li>
+ 	<li>Łożyskowany ster</li>
+ 	<li>Żeliwny balast</li>
+</ul>
+<strong>POKŁAD</strong>
+<ul>
+ 	<li>Kolor biały</li>
+ 	<li>Okucie dziobnicy z pojedynczą rolką kotwiczną</li>
+ 	<li>Kosze rufowe i kosz dziobowy ze światłami nawigacyjnymi typu LED</li>
+ 	<li>Luk kotwiczny z dodatkowym wzmocnieniem na windę kotwiczną</li>
+ 	<li>Aluminiowa listwa odbojowa z sześcioma półkluzami</li>
+ 	<li>Knagi cumownicze – dziobowe, centralne i rufowe</li>
+ 	<li>8 słupków relingowych z podwójnym relingiem</li>
+ 	<li>10 stoperów lin</li>
+ 	<li>2 duże i 6 małych otwieranych luków</li>
+ 	<li>2 otwierane bulaje</li>
+ 	<li>Okna panoramiczne z barwionego plexi</li>
+ 	<li>2 handrelingi</li>
+ 	<li>10 bloków zwrotnych</li>
+ 	<li>2 szyny foka z wózkami</li>
+ 	<li>Łożyskowany wózek talii grota + 2 stopery</li>
+ 	<li>Dwa samowybierające kabestany No. 35.2 STA</li>
+</ul>
+<b>KOKPIT</b>
+<ul>
+ 	<li>Przestronny samoodpływowy kokpit z czterema bakistami</li>
+ 	<li>Suwklapa i 2-częściowa sztorcklapa z plexi</li>
+ 	<li>2 otwierane luki w kabinach rufowych</li>
+ 	<li>Dwa samowybierające kabestany No. 46.2 STA</li>
+ 	<li>2 korby kabestanowe</li>
+ 	<li>Podłoga i siedzenia w teaku</li>
+ 	<li>Bakista na dwie butle gazowe, instalacja gazowa 3/8" tester wycieku gazu</li>
+ 	<li>Kolumna sterowa z kołem 1200 mm, dużą główką, relingiem, kompasem magnetycznym</li>
+ 	<li>Panel sterujący silnika</li>
+ 	<li>Rumpel awaryjny</li>
+ 	<li>Platforma kąpielowa teakowa z drabinką</li>
+ 	<li>Stolik w kokpicie</li>
+ 	<li>Siedzenia na koszach rufowych</li>
+</ul>
+<b>TAKIELUNEK</b>
+<ul>
+ 	<li>Maszt</li>
+ 	<li>Bom z napinaczem</li>
+ 	<li>Lazy jack</li>
+ 	<li>Genua rolowana</li>
+ 	<li>Grot listwy krótkie, z dwoma refami</li>
+ 	<li>Światło kotwiczne, silnikowe i oświetlenie pokładu</li>
+</ul>
+<strong>KAMBUZ</strong>
+
+&nbsp;
+<ul>
+ 	<li>Podwójny zlew z pokrywą teakową</li>
+ 	<li>Kuchenka palnikowa z piekarnikiem</li>
+ 	<li>Lodówka 90L chłodzona powietrzem</li>
+ 	<li>Półki na naczynia</li>
+ 	<li>Kran na ciepłą i zimną wodą</li>
+ 	<li>Blat (jasny kolor)</li>
+ 	<li>Kosz na śmieci</li>
+ 	<li>Gaśnica</li>
+</ul>
+</div>
+<div class="col-md-6 col-xs-12">
+
+<strong>INSTALACJA ELEKTRYCZNA</strong>
+<ul>
+ 	<li>Tablica elektryczna, wskaźnik stanu naładowania baterii, poziomu zbiornika wody, fekaliów, paliwa</li>
+ 	<li>Wyłączniki główne prądu</li>
+ 	<li>Ładowarka 230V/12V/40A z przewodem 17 m zakończonym wtyczką</li>
+ 	<li>Oświetlenie wnętrza typu LED</li>
+ 	<li>1 gniazdo 12V</li>
+ 	<li>4 gniazda 230 V (łazienki, stolik nawigacyjny, kambuz)</li>
+ 	<li>Akumulatory życiowe 2 x 100 Ah, akumulator rozruchowy 1 x 80 Ah</li>
+</ul>
+<b>SILNIK</b>
+<ul>
+ 	<li>Silnik Volvo 55 HP</li>
+ 	<li>Stała śruba napędowa</li>
+ 	<li>Wygłuszenie 30 mm, 100kg/m3</li>
+ 	<li>Zbiornik paliwa 210 L</li>
+ 	<li>Gaśnica automatyczna przedziału silnika</li>
+</ul>
+<b>INSTALACJA WODNA</b>
+<ul>
+ 	<li>Zbiornik wody pitnej 320 l</li>
+ 	<li>Instalacja ciepłej wody</li>
+ 	<li>Ciśnieniowa instalacja wody</li>
+ 	<li>1 elektryczna pompa zęzowa</li>
+ 	<li>1 ręczna pompa zęzowa</li>
+</ul>
+<b>RATOWNICTWO</b>
+<ul>
+ 	<li>Środki ratunkowe 10 osób</li>
+ 	<li>Pneumatyczne pasy ratunkowe + linka asekurująca 2 koła ratunkowe Atestowana tratwa ratunkowa + zwalniak hydrostatyczny Pławka świetlna Tyka Rzutka pływająca EPIRB Zestaw pirotechniki (12 rakiet czerwonych + pławka dymna) Apteczka</li>
+</ul>
+<b>ELEKTRONIKA</b>
+<ul>
+ 	<li>Garmin GMI 10, czujnik prędkości, temperatury, głębokości</li>
+ 	<li>Garmin GWS 10 z oddzielnym wyświetlaczem</li>
+ 	<li>Chartplotter Garmin GPS MAP 720s</li>
+ 	<li>AIS 600 Garmin</li>
+ 	<li>Garmin VHF 200i + słuchawka bezprzewodowa</li>
+ 	<li>Autopilot Garmin GHP 12</li>
+ 	<li>Audiopak SONY, radio z MP3, CD, USB, 2 głośniki w messie</li>
+ 	<li>Ogrzewanie Webasto Air Top 5500</li>
+</ul>
+<b>WNĘTRZE</b>
+<ul>
+ 	<li>Wybudowa wnętrza w mahoniu</li>
+ 	<li>Kabina dziobowa szczytowa z dwuosobową koją</li>
+ 	<li>Kabina dziobowa burtowa z piętrowymi kojami</li>
+ 	<li>Elektryczna toaleta dziobowa ze zbiornikiem na fekalia 47 L</li>
+ 	<li>Prostokątny stół w messie (opuszczany) z siedziskiem i oparciem</li>
+ 	<li>Stolik nawigacyjny w messie</li>
+ 	<li>Elektryczna toaleta rufowa ze zbiornikiem na fekalia 47 L</li>
+ 	<li>Tapicerka w kolorze niebieskim</li>
+ 	<li>Dwie kabiny rufowe z podwójną koją i szafkami</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar43" data-toggle="collapse" data-parent="#accordionczar6">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar43" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">o 23.04.2016 -</td>
+<td class="relation"><strong>5100 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016 -</td>
+<td class="relation"><strong>6450 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016 -</td>
+<td class="relation"><strong>6000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016 -</td>
+<td class="relation"><strong>7400 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016 -</td>
+<td class="relation"><strong>8300 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016 -</td>
+<td class="relation"><strong>6900 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016 -</td>
+<td class="relation"><strong>6000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016 -</td>
+<td class="relation"><strong>5300 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016 -</td>
+<td class="relation"><strong>5100 zł</strong></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<strong>OPŁATY DODATKOWE </strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>300 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>6000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>165 euro</strong></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar27" data-toggle="collapse" data-parent="#accordionczar2">Delphia 47 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar27" class="panel-collapse collapse">
+<div class="panel-body">
+<p class="margin-cruises">Typ Delphia 47 w wersji 5-kabinowej to piękny, komfortowy i sterowny jacht, na którego pokładzie w wygodnych warunkach może żeglować 12 osób.</p>
+
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>SPECYFIKACJA</strong>
+
+&nbsp;
+<table>
+<tbody>
+<tr>
+<td class="relation">Długość -</td>
+<td class="relation"><b>14.03 m</b></td>
+</tr>
+<tr>
+<td class="relation">Szerokość -</td>
+<td class="relation"><b>4.48 m</b></td>
+</tr>
+<tr>
+<td class="relation">Zanurzenie -</td>
+<td class="relation"><b>1.80 m</b></td>
+</tr>
+<tr>
+<td class="relation">Ciężar -</td>
+<td class="relation"><b>13500 kg</b></td>
+</tr>
+<tr>
+<td class="relation">Balast -</td>
+<td class="relation"><b>4500 kg</b></td>
+</tr>
+<tr>
+<td class="relation">Max moc silnika -</td>
+<td class="relation"><b>55 KM</b></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik paliwa -</td>
+<td class="relation"><b>250 L</b></td>
+</tr>
+<tr>
+<td class="relation">Zbiornik wody -</td>
+<td class="relation"><b>490 L</b></td>
+</tr>
+<tr>
+<td class="relation">Grot -</td>
+<td class="relation"><b>55.10 m2</b></td>
+</tr>
+<tr>
+<td class="relation">Fok -</td>
+<td class="relation"><b>57.10 m2</b></td>
+</tr>
+<tr>
+<td class="relation">Kategoria -</td>
+<td class="relation"><b>A - 12 os.</b></td>
+</tr>
+<tr>
+<td class="relation">Projektant -</td>
+<td class="relation"><b>Andrzej Skrzat</b></td>
+</tr>
+<tr>
+<td class="relation">Rok produkcji -</td>
+<td class="relation"><strong>2014</strong></td>
+</tr>
+<tr>
+<td class="relation">Ilość koi -</td>
+<td class="relation"><strong>12</strong></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+[su_custom_gallery source="media: 1179,1178,1177,1176,1175,1174,1173,1172,1171" limit="29" link="lightbox" width="80" height="80"]
+
+[/su_custom_gallery]
+<table width="600">
+<tbody>
+<tr>
+<td class="relation" align="center" valign="middle"><a target="_blank"><strong>Kliknij aby zobaczyć materiały video</strong></a></td>
+<td class="relation"><a target="_blank"><img src="http://www.tadekduch.pl/images/phocagallery/grafika_strony/video.png" alt="Video" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="accordionczar7" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar44" data-toggle="collapse" data-parent="#accordionczar7">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar44" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<b>KADŁUB</b>
+<ul>
+ 	<li>Ruszt ze stali galwanizowanej łączący kil z podwięziami</li>
+ 	<li>Żeliwny balast</li>
+ 	<li>Łożyskowany ster</li>
+ 	<li>Nie otwierane bulaje burtowe</li>
+ 	<li>Pas ochronny z nierdzewki wzdłuż kadłuba</li>
+ 	<li>Ster strumieniowy dziobowy</li>
+ 	<li>Ster strumieniowy</li>
+</ul>
+<b>POKŁAD</b>
+<ul>
+ 	<li>Kolor biały</li>
+ 	<li>Okucie dziobnicy z pojedynczą rolką kotwiczną</li>
+ 	<li>Kosze rufowe i kosz dziobowy ze światłami nawigacyjnymi typu LED</li>
+ 	<li>Luk kotwiczny z dodatkowym wzmocnieniem na windę kotwiczną</li>
+ 	<li>Kotwica 20 kg z 70 m x 10 mm łańcuchem galwanizowanym</li>
+ 	<li>Aluminiowe listwy z ośmioma półkluzami</li>
+ 	<li>6 knag cumowniczych – dziobowe, centralne i rufowe</li>
+ 	<li>8 słupków relingowych z podwójnym relingiem</li>
+ 	<li>4 trzykrotne stopery lin</li>
+ 	<li>2 duże i 10 małych luków otwieranych</li>
+ 	<li>2 okna boczne z barwionego plexiglas</li>
+ 	<li>2 handrelingi</li>
+ 	<li>2 trzykrotne i 2 dwukrotne bloki zwrotne</li>
+ 	<li>2 samowybierające kabestany No. 50 STA</li>
+ 	<li>2 korby kabestanowe</li>
+ 	<li>Prysznic na rufie zimna-ciepła woda</li>
+ 	<li>Elektryczna winda kotwiczna pod pokładem</li>
+ 	<li>Bramki burtowe w relingach</li>
+ 	<li>8 odbijaczy</li>
+ 	<li>4 liny cumownicze</li>
+</ul>
+<b>KOKPIT</b>
+<ul>
+ 	<li>Przestronny samoodpływowy kokpit z dwiema bakistami</li>
+ 	<li>Zejściówka z suwklapą i drewnianymi drzwiczkami na zawiasach</li>
+ 	<li>2 otwierane luki w kabinach rufowych</li>
+ 	<li>Podłoga i siedzenia w teaku</li>
+ 	<li>Bakista na dwie butle gazowe, instalacja gazowa z testerem wycieku gazu</li>
+ 	<li>2 kolumny sterowe z kołami 1030 mm w oplocie skórzanym</li>
+ 	<li>Kompasy na kolumnach sterowych</li>
+ 	<li>Panel sterujący silnika</li>
+ 	<li>2 samowybierające kabestany No. 65 STA</li>
+ 	<li>Rumpel awaryjny</li>
+ 	<li>Platforma kąpielowa z teakiem i drabinką</li>
+ 	<li>Stolik w kokpicie z uchwytem do chartplottera</li>
+ 	<li>Szprycbuda</li>
+ 	<li>Siedzenia na koszach rufowych</li>
+ 	<li>Flagsztok z gniazdem</li>
+</ul>
+<b>TAKIELUNEK</b>
+<ul>
+ 	<li>Szyna foka przedmasztowa</li>
+ 	<li>Łożyskowany wózek talii grota</li>
+ 	<li>Maszt (na stępce) z trzema salingami</li>
+ 	<li>Olinowanie typu „German sheeting”</li>
+ 	<li>Bom z napinaczem</li>
+ 	<li>Lazy Jack</li>
+ 	<li>Fok samohalsujący, rolowany</li>
+ 	<li>Grot z wózkami MDS listwy długie, dwa refy</li>
+ 	<li>Światło kotwiczne, silnikowe i oświetlenie pokładu</li>
+ 	<li>Szyny genuy z wózkami</li>
+ 	<li>Wiatromierz (wskaźnik kierunku wiatru)</li>
+</ul>
+<b>SILNIK</b>
+
+&nbsp;
+<ul>
+ 	<li>Silnik Volvo Penta D2-75 S-drive</li>
+ 	<li>Śruba napędowa 2 płatowa stała "17”</li>
+ 	<li>Zbiornik paliwa 250 l</li>
+</ul>
+</div>
+<div class="col-md-6 col-xs-12">
+
+<b>INSTALACJA ELEKTRYCZNA</b>
+<ul>
+ 	<li>Ster strumieniowy</li>
+ 	<li>Tablica elektryczna, wskaźnik ładowania baterii, wskaźniki poziomu zbiornika wody, fekalii, paliwa</li>
+ 	<li>Wyłączniki główne prądu</li>
+ 	<li>Ładowarka 230V/12V/60A</li>
+ 	<li>20-metrowy przewód zasilający instalację 230V, zakończony wtyczką</li>
+ 	<li>3 gniazda 12V</li>
+ 	<li>6 gniazd 230 V (łazienki, stolik nawigacyjny, messa)</li>
+ 	<li>Akumulatory życiowe 3 x 110 Ah, akumulator</li>
+ 	<li>rozruchowy 1 x 90 Ah</li>
+</ul>
+<b>INSTALACJA WODNA</b>
+<ul>
+ 	<li>Zbiornik wody pitnej o pojemności 490L</li>
+ 	<li>Instalacja ciepłej wody</li>
+ 	<li>Ciśnieniowa instalacja wody</li>
+ 	<li>2 elektryczne pompy zęzowe</li>
+ 	<li>1 ręczna pompa zęzowa</li>
+ 	<li>Instalacja wody zaburtowej</li>
+</ul>
+&nbsp;
+
+<b>RATOWNICTWO</b>
+<ul>
+ 	<li>Środki ratunkowe 12 osób</li>
+ 	<li>Pneumatyczne pasy ratownicze + linka asekurująca</li>
+ 	<li>2 koła ratunkowe</li>
+ 	<li>Atestowana tratwa ratunkowa + zwalniak hydrostatyczny</li>
+ 	<li>Pławka świetlna</li>
+ 	<li>Tyka</li>
+ 	<li>Rzutka pływająca</li>
+ 	<li>EPIRB</li>
+ 	<li>Zestaw pirotechniki (12 rakiet czerwonych + pławka dymna)</li>
+ 	<li>Apteczka</li>
+</ul>
+<b>ELEKTRONIKA</b>
+<ul>
+ 	<li>NavTex MRD 80</li>
+ 	<li>Autopilot</li>
+ 	<li>Chartplotter z wbudowaną anteną GPS</li>
+ 	<li>antena radaru</li>
+ 	<li>VHF</li>
+ 	<li>Audiopack Fusion, radio z MP3, CD, wejście USB, 2 głośniki w messie, antena</li>
+ 	<li>Dodatkowe głośniki w kokpicie</li>
+ 	<li>Webasto AIR Top 3900, dwie instalacje</li>
+</ul>
+<b>KAMBUZ</b>
+<ul>
+ 	<li>Podwójny zlew</li>
+ 	<li>Kuchenka dwupalnikowa z piekarnikiem</li>
+ 	<li>Lodówka</li>
+ 	<li>Półki na naczynia</li>
+ 	<li>Pojemnik na śmieci</li>
+ 	<li>Kran z ciepłą i zimną wodą</li>
+ 	<li>Blat</li>
+ 	<li>Gaśnica</li>
+</ul>
+<b>WNĘTRZE</b>
+<ul>
+ 	<li>Wybudowa wnętrza w mahoniu, drewno naturalne, nieznacznie może różnić się odcieniem, lakier matowy, poziome (kremowe) paski na grodziach</li>
+ 	<li>3 kabiny w sekcji dziobowej, dwupoziomowe, z możliwością złożenia górnej koi</li>
+ 	<li>Stół w messie z sofą</li>
+ 	<li>Oświetlenie typu halogen-LED, schodowe włączniki oświetlenia</li>
+ 	<li>Stolik nawigacyjny w messie</li>
+ 	<li>2 elektryczne toalety rufowe, każda ze zbiornikiem na fekalia 47 L i wieszakiem na ręcznik i prysznicem</li>
+ 	<li>2 kabiny rufowe z podwójnymi kojami i szafkami</li>
+ 	<li>Podłoga w paski</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar45" data-toggle="collapse" data-parent="#accordionczar7">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar45" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 23.04.2016 -</td>
+<td class="relation"><strong>7400 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016 -</td>
+<td class="relation"><strong>9500 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016 -</td>
+<td class="relation"><strong>8950 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016 -</td>
+<td class="relation"><strong>10600 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016 -</td>
+<td class="relation"><strong>10990 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016 -</td>
+<td class="relation"><strong>10200 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016 -</td>
+<td class="relation"><strong>8950 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016 -</td>
+<td class="relation"><strong>7700 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016 -</td>
+<td class="relation"><strong>7400 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>
+OPŁATY DODATKOWE </strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>350 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>7000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<strong>PŁATNOŚCI</strong>
+
+&nbsp;
+
+<strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong>
+<strong>40% w terminie 7 dni od rezerwacji.</strong>
+
+&nbsp;
+
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar28" data-toggle="collapse" data-parent="#accordionczar2">Cobra 33 - Świnoujście</a></h4>
+</div>
+<div id="collapseczar28" class="panel-collapse collapse">
+<div class="panel-body">
+<div id="accordionczar8" class="panel-group">
+
+<!--wyposazenie-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar46" data-toggle="collapse" data-parent="#accordionczar8">Wyposażenie</a></h4>
+</div>
+<div id="collapseczar46" class="panel-collapse collapse"></div>
+</div>
+<!--cennik-->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapseczar47" data-toggle="collapse" data-parent="#accordionczar8">Cennik i rezerwacje</a></h4>
+</div>
+<div id="collapseczar47" class="panel-collapse collapse">
+<div class="panel-body">
+
+div class="row"&gt;
+<div class="col-md-6 col-xs-12">
+
+<strong>TERMINARZ 2016 – MARINA ŚWINOUJŚCIE</strong>
+
+&nbsp;
+<table cellpadding="5">
+<tbody>
+<tr>
+<td class="relation">do 23.04.2016 -</td>
+<td class="relation"><strong>3050 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">23.04.2016 - 30.04.2016 -</td>
+<td class="relation"><strong>4500 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">30.04.2016 - 21.05.2016 -</td>
+<td class="relation"><strong>3750 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">21.05.2016 - 11.06.2016 -</td>
+<td class="relation"><strong>4350 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">11.06.2016 – 27.08.2016 -</td>
+<td class="relation"><strong>4800 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">27.08.2016 – 03.09.2016 -</td>
+<td class="relation"><strong>3700 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">03.09.2016 - 10.09.2016 -</td>
+<td class="relation"><strong>3500 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">10.09.2016 - 24.09.2016 -</td>
+<td class="relation"><strong>3100 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">od 24.10.2016 -</td>
+<td class="relation"><strong>2850 zł</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>OPŁATY DODATKOWE</strong>
+<table>
+<tbody>
+<tr>
+<td class="relation">Sprzątanie jachtu po czarterze (<strong>obowiązkowe</strong>) -</td>
+<td class="relation"><strong>200 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Skipper (na życzenie)/cena za dobę -</td>
+<td class="relation"><strong>250 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Pościel (dwa prześcieradła, dwa koce)/osoba -</td>
+<td class="relation"><strong>40 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Kaucja zwrotna (<strong>obowiązkowa</strong>) -</td>
+<td class="relation"><strong>4000 zł</strong></td>
+</tr>
+<tr>
+<td class="relation">Ubezpieczenie kaucji (cena w euro) -</td>
+<td class="relation"><strong>136 euro</strong></td>
+</tr>
+</tbody>
+</table>
+<strong>PŁATNOŚCI</strong>
+<ul>
+ 	<li><strong>40% w terminie 7 dni od rezerwacji.</strong></li>
+ 	<li><strong>60% najpóźniej na 30 dni przez planowanym terminem czarteru.</strong></li>
+</ul>
+Wydanie jachtu – soboty w godzinach <strong>15:00 – 18:00</strong>.
+
+Zdanie jachtu – soboty w godzinach <strong>8:00 – 10:00</strong>.
+
+</div>
+<div class="col-md-6 col-xs-12">
+
+Ceny w <strong>złotych polskich</strong> za tydzień czarteru. W cenę wliczony jest kompletnie zaopatrzony, przygotowany do żeglugi jacht wraz z wyposażeniem kambuza. Jedna butla gazu na początek rejsu. W cenie również postój, woda i prąd na terenie mariny macierzystej. Jacht posiada wykupioną polisę OC oraz Casco. Każdy członek załogi objęty jest ubezpieczeniem NNW (na warunkach polisy jachtu).
+
+Pośredniczymy w ubezpieczeniu kaucji – czarterujący wpłaca kaucję wysokości 600 zł oraz wykupuje polisę ubezpieczenia 90 euro. Opłata za polisę nie jest zwracana. W przypadku wystąpienia szkody, ubezpieczyciel wypłaci potrąconą z kaucji część, zgodnie z OWU ubezpieczenia. Jeżeli zdecydują się Państwo na ubezpieczenie kaucji, prosimy o wcześniejszą informacje (ubezpieczyciel wymaga wpłaty najpóźniej 14 dni przed terminem czarteru!!!).
+
+Oferujemy także inne ubezpieczenia dla skipperów oraz załóg (ubezpieczenie OC skippera, ubezpieczenie anulowania czarteru itp.)
+
+&nbsp;
+
+<strong>RABATY</strong>
+<ul>
+ 	<li>Stały klient (kolejny czarter) 5%</li>
+ 	<li>Czarter powyżej tygodnia (za każdy kolejny tydzień) 5%</li>
+ 	<li>Rezerwacja i opłacenie całości czarteru powyżej 6 mc. przed terminem 5%</li>
+ 	<li>Maksymalny rabat 15%</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--koniec-->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--marina świnoujście koniec-->
+
+</div>
+</div>

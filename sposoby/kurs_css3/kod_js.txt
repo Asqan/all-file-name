@@ -1,0 +1,26 @@
+
+<script src="jquery-1.11.3.min.js"></script>
+	
+<script>
+
+	jQuery(document).ready(function() {
+	var NavY = jQuery('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = jQuery(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		jQuery('.nav').addClass('sticky');
+	} else {
+		jQuery('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	jQuery(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>

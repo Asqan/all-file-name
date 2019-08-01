@@ -1,0 +1,19 @@
+!--Teskt G³ówny-->
+<div class="Text">
+<div class="container section-padding">
+<?php
+$posts = get_posts(array(
+'include' => 891,
+'post_type' => 'any',
+'numberposts' => 1,
+'suppress_filters' => false,
+
+));
+
+echo apply_filters('the_content' ,$posts[0]->post_content);
+?>
+</div>
+</div>
+
+Br¹zowy: #3B2314
+Be¿owy: #FFEBC6

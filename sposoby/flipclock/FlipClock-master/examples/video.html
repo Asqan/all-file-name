@@ -1,0 +1,403 @@
+<html>
+<head>
+<style>
+body {
+	margin-top: 0;
+	margin: 0;
+}
+body:after, body:before {
+	display: none;
+}
+
+
+
+section#video {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1001;
+	overflow: hidden;
+	background-color: #1642A6;
+}
+
+
+video#bgvid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	
+	background: url("video/video.jpg") no-repeat;
+	background-size: cover;
+}
+
+.b-hero__title {
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.b-hero__content--allcentral--video {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 300vh;
+	text-align: center;
+	z-index: 100;
+	height: 100vh;
+	font-weight: 900;
+	color: #fff;
+	font-size: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.b-hero__content--allcentral--video>* { 
+	color: #fff;
+}
+
+.b-hero__title {
+	line-height: 0.9em;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.b-hero__title span {
+	font-weight: 400 !important;
+	font-size: 25px;
+}
+
+.b-video__learn {
+	
+}
+
+#watchfull {
+	color: #fff !important;
+	cursor: pointer;
+}
+
+#watchfull i {
+	-webkit-animation-name: 'pulse';
+	-webkit-animation-duration: 1500ms;
+	-webkit-transform-origin: 70% 70%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-name: 'pulse';
+	animation-duration: 1500ms;
+	transform-origin: 70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background: rgba(0, 0, 0, 0) url("video/play.svg")
+		no-repeat scroll center center/cover;
+	cursor: auto;
+	display: block;
+	height: 6rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: -9999px;
+	transform-origin: 70% 70% 0;
+	width: 6rem;
+}
+
+a:focus {
+	outline: none;
+}
+
+.b-hero__content--allcentral--video a {
+	font-size: 25px;
+}
+
+#yt {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+
+#yt div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#yt nav {
+	position: absolute;
+	z-index: 1060;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 20px;
+	padding-top: 20vh;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#yt nav:hover, #yt nav.in {
+	opacity: 1;
+	transition: opacity .3s;
+}
+
+#yt.in {
+	display: block;
+	z-index: 1050;
+}
+
+input[type="range"].form-control {
+	width: 60%;
+	display: inline-block;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	box-shadow: none;
+	vertical-align: middle;
+	margin: 0 20px;
+	outline: none;
+}
+@media all and (max-width:729px) {
+	input[type="range"].form-control {
+		width: 30%;
+	}
+}
+
+#yt nav button.btn {
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	align-items: flex-start;
+	border-radius: 30px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	background: transparent;
+	color: rgba(255, 255, 255, .5);
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	outline: none;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+header.navbar-static-top {
+	position: absolute;
+	width: 100vw;
+}
+
+
+</style>
+</head>
+<body>
+<section id="video">
+
+
+
+	<video autoplay loop  id="bgvid">
+	
+		<source src="wojtek.mp4"
+			type="video/mp4">
+	</video>
+
+	<div class="b-hero__content--allcentral--video">
+		<a target="_blank"
+			href="https://www.youtube.com/embed/3R68p4Eglgs?rel=0&controls=1&autoplay=1&showinfo=0%22%20frameborder=%220%22%20allowfullscreen"
+			id="watchfull"><i class="b-hero__watchFull">Watch Full Video</i>
+			<h1 class="b-hero__title">
+				We love our people! <br> <span style=""> Watch our new promo video</span>
+			</h1>
+			<h2 class="b-hero__title"></h2> </a> <a href="index.html#carousel"
+			class="b-video__learn" data-scroll>Skip</a>
+	</div>
+
+	<div id="yt">
+		<div></div>
+		<nav class='btn-group btn-inline'>
+			<button class='btn btn-trans play'>
+				<i class='fa fa-play'></i>
+			</button>
+			<button class='btn btn-trans pause'>
+				<i class='fa fa-pause'></i>
+			</button>
+			<input type='range' min="0" max="67" class="form-control" value="0" />
+			<button class='btn btn-trans mute'>
+				<i class='fa fa-volume-off'></i>
+			</button>
+			<button class='btn btn-trans unmute'>
+				<i class='fa fa-volume-up'></i>
+			</button>
+			<button class='btn btn-trans stop'>
+				<i class='fa fa-close'></i>
+			</button>
+		</nav>
+	</div>
+
+	<script type="text/javascript">
+	
+	var initVideo = function() {
+	
+		$('#watchfull').click(function(e) { 
+			e.preventDefault();
+			
+			$('video').get(0).pause();
+			$('#yt').addClass('in'); 
+			$('#yt > div').tubeplayer('play');
+			$('#yt nav').addClass('in');
+			setTimeout(function() {
+				$('#yt nav').removeClass('in');
+				}, 1000);
+			return false; 
+		});
+
+		var timer;
+
+		var playerStop = function() { 
+			$('button.play').show();
+			$('button.pause').hide();
+			clearInterval(timer);
+			$('input[type="range"]').val( $('#yt > div').tubeplayer('data').currentTime );
+		}
+		
+		
+		
+		$('#yt > div').tubeplayer({
+			width:'100%',
+			height:'100%',
+			initialVideo:'BCWxUMRiWsw',
+			color: 'white',
+			theme: "light",
+			modestbranding: false,
+			showControls: false,
+			preferedQuality:'hd720',
+			onPlayerPlaying: function() { 
+				$('button.play').hide();
+				$('button.pause').show(); 
+				clearInterval(timer);
+				timer = setInterval(function(){ $('input[type="range"]').val($('#yt > div').tubeplayer('data').currentTime); }, 1000);
+				},
+			onPlayerPaused: playerStop,
+			onPlayerEnded: function() { 
+				playerStop(); 
+				smoothScroll.animateScroll( null, '#carousel' ); 
+			},
+			onMute: function() { $('button.mute').hide();$('button.unmute').show(); },
+			onUnMute: function() { $('button.mute').show();$('button.unmute').hide(); }
+		}); 
+
+		$('button.pause').hide();
+		$('button.unmute').hide();
+
+		
+		
+
+		$('#yt button.play').click(function(){ 
+			$('#yt > div').tubeplayer('play'); 
+		});
+		$('#yt button.pause').click(function(){ 
+			$('#yt > div').tubeplayer('pause'); 
+		});
+		$('#yt button.mute').click(function(){ 
+			$('#yt > div').tubeplayer('mute'); 
+		});
+		$('#yt button.unmute').click(function(){ 
+			$('#yt > div').tubeplayer('unmute'); 
+		});
+		$('#yt input').change(function(){ 
+			$('#yt > div').tubeplayer('seek',$(this).val());
+		});
+
+		$('#yt button.stop').click(function(){ 
+			$('#yt > div').tubeplayer('stop');
+			$('#yt').toggleClass('in'); 
+			$('video').get(0).play();
+			smoothScroll.animateScroll( null, '#carousel' );
+		});
+
+	}
+
+	</script>
+
+
+</section>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		google.load( "webfont", "1" , 1 );
+		google.load( "maps", "3" , {'other_params':'sensor=true'} );
+	</script>
+
+	<script src="http://cdn.jsdelivr.net/jquery.unveiljs/1.3.0/jquery.unveil.min.js" type="text/javascript"></script>
+	<script src="http://cdn.jsdelivr.net/smooth-scroll/7.0.2/smooth-scroll.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-tubeplayer/1.1.6/jquery.tubeplayer.min.js" type="text/javascript"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js" type="text/javascript"></script>
+	<script src="http://cdn.jsdelivr.net/gmap3/6.0.0/gmap3.min.js" type="text/javascript"></script>
+	<!--[if lt IE 9]>
+<script src="http://cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.min.js" type="text/javascript"></script>
+<![endif]-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.appear.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script type="text/javascript">  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30895322-11', 'auto');
+  ga('send', 'pageview'); </script>
+	<script src="js/jquery.mobile.custom.min.js" type="text/javascript"></script>
+	<script src="nforms/js/form.js" type="text/javascript"></script>
+	<script type="text/javascript">var switchTo5x=false</script>
+	<script src="http://w.sharethis.com/button/buttons.js" type="text/javascript"></script>
+	<script type="text/javascript">stLight.options({publisher: "162c29ec-c0ce-49be-aba5-32ac07ad2059",doNotHash: true,onhover: false});</script>
+	<script type="text/javascript">
+var jqDocReady = function() {
+	initVideo();
+	$('.tech-list').slick({variableWidth: true,dots: true,infinite: false,arrows: false});
+	var initMap = function() { var markers = {values:[]};
+markers.events = {
+		mouseover: function(marker, event, context) {
+        	var map = $(this).gmap3('get'),
+        	infowindow = $(this).gmap3({get:{name:'infowindow'}});
+        	if (infowindow){
+        		infowindow.open(map, marker);
+        		infowindow.setContent(context.data);
+        	} else {
+        		$(this).gmap3({
+        			infowindow:{
+            			anchor:marker, 
+            			options:{content: context.data}
+            		}
+          		});
+        	}
+		} /*,
+		mouseout: function(){
+        	var infowindow = $(this).gmap3({get:{name:'infowindow'}});
+        	if (infowindow){
+        		infowindow.close();
+        	}
+      	}*/
+}; $('.geo').each(function(){
+				var m = Object();
+				if ( $(this).data('lat') ) 
+				m.latLng = [$(this).attr('data-lat'),$(this).attr('data-long')];
+				else if ( $(this).data('address') )
+				m.address = $(this).data('address');
+				else m.address = $(this).text();
+				m.data = $(this).html();m.options = {icon: '/images/4finance-marker.png' };markers.values.push( m ); 
+			});
+var mygmap3 = $('#gmap').gmap3({map: {options: {center: [54.593964,14.120570],zoom: 5,scrollwheel: false,mapTypeControl: false,zoomControl: false,panControl: false,streetViewControl: false}},marker: markers}) };
+	$('#gmap').appear(initMap);
+}; $(document).ready(jqDocReady);
+</script>
+<body>
+</html>

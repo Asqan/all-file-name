@@ -1,0 +1,18 @@
+<section>
+	<div class="container-fluid" style="padding:30px 0;">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<span class="title" style="margin:0 auto; text-align:center; "><h3> <?php echo get_page(518) -> post_title; ?> </h3></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<article class="">
+						<?php echo get_page(518) -> post_content; ?>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

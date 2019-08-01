@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../compiled/flipclock.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="../compiled/flipclock.js"></script>
+	</head>
+	<body>
+	<div class="clock" style="margin:2em;"></div>
+	<div class="clock2" style="margin:2em;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
+		var clock;
+		
+		$(document).ready(function() {
+			var clock;
+
+			clock = $('.clock').FlipClock({
+		        clockFace: 'DailyCounter',
+		        autoStart: false,
+		        callbacks: {
+		        	stop: function() {
+		        		$('.message').html('The clock has stopped!')
+		        	}
+		        }
+		    });
+				    
+		    clock.setTime(220880);
+		    clock.setCountdown(true);
+		    clock.start();
+
+		});
+		var clock2;
+		
+		$(document).ready(function() {
+			var clock2;
+
+			clock2 = $('.clock2').FlipClock({
+		        clockFace: 'DailyCounter',
+		        autoStart: false,
+		        callbacks: {
+		        	stop: function() {
+		        		$('.message2').html('The clock has stopped!')
+		        	}
+		        }
+		    });
+				    
+		    clock2.setTime(220880);
+		    clock2.setCountdown(true);
+		    clock2.start();
+
+		});
+	</script>
+	
+	</body>
+</html>

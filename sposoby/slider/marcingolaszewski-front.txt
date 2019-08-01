@@ -1,0 +1,170 @@
+<?php
+/**
+ * The main template file.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Theme Freesia
+ * @subpackage Pixgraphy
+ * @since Pixgraphy 1.0
+ */
+
+
+get_header(); 
+?>
+
+
+
+<div id="aboutme" class="about-me" style="background-color:white;">
+<div class="section-padding">
+<?php
+$posts = get_posts(array(
+'include' => 518,
+'post_type' => 'any',
+'numberposts' => 1,
+'suppress_filters' => false,
+
+));
+
+echo apply_filters('the_content' ,$posts[0]->post_content);
+?>
+</div>
+</div>
+<div id="offer" class="offer" style="background-image:url(http://marcingolaszewski.adserv.pl/wp-content/uploads/2017/04/Kliszav1.jpg);background-size:100%;color:white">
+<div class="section-padding">
+<?php
+$posts = get_posts(array(
+'include' => 504,
+'post_type' => 'any',
+'numberposts' => 1,
+'suppress_filters' => false,
+
+));
+
+echo apply_filters('the_content' ,$posts[0]->post_content);
+?>
+</div>
+</div>
+<div class="grid">
+<div class="grid-sizer"></div>
+<article class="wow bounceInLeft wHighlight">
+<div class="gridimg grid-item"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-weddings-i-proposals/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/wedding/J9A1921_1.jpg" /></a></figure>
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<div class="gridimg grid-item"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-weddings-i-proposals/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/wedding/J9A1838_1.jpg" /></a>
+</figure>
+    <div class="text">Lorem ipsum</div></div>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-weddings-i-proposals/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/wedding/J9A1957_1.jpg" /></a></figure>
+
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="wow bounce">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-weddings-i-proposals/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/wedding/J9A1817_1.jpg" /></a></figure>
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="wow bounceInLeft">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-christenings-and-first-comunion/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/christenings/J9A6537.jpg" /></a></figure>
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure class="wow bounce"><a href="http://marcingolaszewski.adserv.pl/gallery-christenings-and-first-comunion/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/christenings/J9A7051.jpg" /></a></figure>
+
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-christenings-and-first-comunion/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/christenings/J9A6964.jpg" /></a></figure>
+<div class="text">Lorem ipsum</div></div>
+</article>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-portraits/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/otheroccasions/J9A7129.jpg" /></a></figure>
+
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-portraits/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/otheroccasions/J9A5052_1.jpg" /></a></figure>
+
+    <div class="text">Lorem ipsum</div></div>
+</article>
+<article class="">
+<div class="gridimg grid-item hover-effect2"><figure><a href="http://marcingolaszewski.adserv.pl/gallery-portraits/"><img src="http://marcingolaszewski.adserv.pl/wp-content/uploads/otheroccasions/J9A7582.jpg" /></a></figure>
+
+    <div class="text">Lorem ipsum</div></div>
+</article>
+</div>
+<?php
+	$pixgraphy_settings = pixgraphy_get_theme_options();
+	if($pixgraphy_settings['pixgraphy_photography_layout'] != 'photography_layout'){
+	global $pixgraphy_content_layout;
+	if( $post ) {
+		$layout = get_post_meta( get_queried_object_id(), 'pixgraphy_sidebarlayout', true );
+	}
+	if( empty( $layout ) || is_archive() || is_search() || is_home() ) {
+		$layout = 'default';
+	}
+	if( 'default' == $layout ) { //Settings from customizer
+		if(($pixgraphy_settings['pixgraphy_sidebar_layout_options'] != 'nosidebar') && ($pixgraphy_settings['pixgraphy_sidebar_layout_options'] != 'fullwidth')){ ?>
+			<div id="primary">
+				<?php }
+	}?>
+				<main id="main" class="site-main clearfix">
+					<?php
+					$pixgraphy_stickies = get_option('sticky_posts');
+					if( $pixgraphy_stickies ) {
+						$pixgraphy_args = array( 'ignore_sticky_posts' => 1, 'post__not_in' => $pixgraphy_stickies );
+						query_posts( array_merge($wp_query->query, $pixgraphy_args) );
+					}
+					if( have_posts() ) {
+						while(have_posts() ) {
+							the_post();
+							get_template_part( 'content', get_post_format() );
+						}
+					}
+					else { ?>
+					<h2 class="entry-title"> <?php esc_html_e( 'No Posts Found.', 'pixgraphy' ); ?> </h2>
+					<?php } ?>
+					<?php get_template_part( 'pagination', 'none' ); ?>
+				</main> <!-- #main -->
+	<?php
+	if( 'default' == $layout ) { //Settings from customizer
+		if(($pixgraphy_settings['pixgraphy_sidebar_layout_options'] != 'nosidebar') && ($pixgraphy_settings['pixgraphy_sidebar_layout_options'] != 'fullwidth')): ?>
+			</div> <!-- #primary -->
+			<?php endif;
+	}
+}else{ ?>
+	<!-- post_masonry ============================================= -->
+<section id="post_masonry" class="<?php echo esc_attr($pixgraphy_settings['pixgraphy_column_post']);?>-column-post clearfix">
+	<?php
+	$pixgraphy_stickies = get_option('sticky_posts');
+	if( $pixgraphy_stickies ) {
+		$pixgraphy_args = array( 'ignore_sticky_posts' => 1, 'post__not_in' => $pixgraphy_stickies );
+		query_posts( array_merge($wp_query->query, $pixgraphy_args) );
+	}
+	if( have_posts() ) {
+		while(have_posts() ) {
+			the_post();
+			get_template_part( 'content');
+		}
+	} ?>
+</section>
+<!-- end #post_masonry -->
+<div class="special_quests_cat">
+<a href="/index.php?cat=10">Special guests</a>
+</div>
+<div id="contact" class="pass" style="background-color:white">
+<div class="section-padding">
+<?php
+$posts = get_posts(array(
+'include' => 526,
+'post_type' => 'any',
+'numberposts' => 1,
+'suppress_filters' => false,
+
+));
+
+echo apply_filters('the_content' ,$posts[0]->post_content);
+?>
+</div>
+</div>
+<?php }
+get_footer(); ?>

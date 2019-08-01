@@ -1,0 +1,221 @@
+<style>
+body{
+  overflow-x:hidden;
+  margin:0;
+  padding:0;
+}
+.personality {
+width: 100%;
+min-height: 300px;
+float: left;
+background: rgb(0, 200, 200);
+background: rgba(52, 119, 206, 0.7);
+background-position: center;
+background-size: cover;
+background-image: url(../images/25H.jpg);
+background-attachment: fixed;
+}
+
+.personality-overlay{
+width: 100%;
+height: 100%;
+float: left;
+background: rgb(0, 200, 200);
+background: rgba(52, 119, 206, 0.7);
+background-attachment: fixed;
+}
+
+.statsbar { 
+
+width: 100%;
+height: 100px;
+margin-top:120px;
+
+}
+
+.stat-one { 
+
+width: 25%;
+height: 100px;
+float:left;
+
+}
+
+.stat-two { 
+
+width: 25%;
+height: 100px;
+float:left;
+
+}
+
+.stat-three { 
+
+width: 25%;
+height: 100px;
+float:left;
+
+}
+
+.stat-four { 
+
+width: 25%;
+height: 100px;
+float:left;
+
+}
+
+.stat-number { 
+
+width: 100%;
+height: 50px;
+float:left;
+text-align:center;
+color:#FFF;
+font-size: 60px;
+font-weight: 100;
+text-transform: uppercase;
+color:#FFF;
+
+}
+
+.stat-title { 
+
+width: 100%;
+height: 50px;
+float:left;
+text-align:center;
+color:#FFF;
+font-size: 14px;
+font-weight: 100;
+text-transform: uppercase;
+color:#FFF;
+}
+    background-image: url(../images/25H.jpg);
+    background-attachment: fixed;
+}
+.personality-overlay {
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    background: rgb(0, 200, 200);
+    background: rgba(52, 119, 206, 0.7);
+    background-attachment: fixed;
+}
+.statsbar {
+    width: 100%;
+    height: 100px;
+    margin-top:120px;
+}
+.stat-one {
+    width: 25%;
+    height: 100px;
+    float:left;
+}
+.stat-two {
+    width: 25%;
+    height: 100px;
+    float:left;
+}
+.stat-three {
+    width: 25%;
+    height: 100px;
+    float:left;
+}
+.stat-four {
+    width: 25%;
+    height: 100px;
+    float:left;
+}
+.stat-number {
+    width: 100%;
+    height: 50px;
+    float:left;
+    text-align:center;
+    color:#FFF;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#FFF;
+}
+.stat-title {
+    width: 100%;
+    height: 50px;
+    float:left;
+    text-align:center;
+    color:#FFF;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color:#FFF;
+}
+@media(max-width:768px){
+.stat-one,.stat-two,.stat-three,.stat-four{
+ width:100%; 
+  float:none;
+  
+}
+}
+</style>
+<div class="scroll-page" style="width:100vw;height:100vh;background-color:red"></div>
+<div class="personality">
+    <div class="personality-overlay">
+        <div class="statsbar">
+            <div class="stat-one">
+                <div class="stat-number" data-n="200"><span class="Single">0</span>
+                </div>
+                <div class="stat-title">CUPS OF TEA A DAY</div>
+            </div>
+            <div class="stat-two">
+                <div class="stat-number" data-n="60">0</div>
+                <div class="stat-title">MINIMUM HOURS OF SLEEP A WEEK</div>
+            </div>
+            <div class="stat-three">
+                <div class="stat-number" data-n="10">0</div>
+                <div class="stat-title">CUPS OF TEA A DAY</div>
+            </div>
+            <div class="stat-four">
+                <div class="stat-number" data-n="10" data-sym="%">0</div>
+                <div class="stat-title">HOURS SLEEP A WEEK</div>
+            </div>
+        </div>
+                    
+</div>
+<script>
+$(function () {
+    var fx = function fx() {
+    $(".stat-number").each(function (i, el) {
+        var data = parseInt(this.dataset.n, 10);
+        var props = {
+            "from": {
+                "count": 0
+            },
+                "to": {
+                "count": data
+            }
+        };
+        $(props.from).animate(props.to, {
+            duration: 1000 * 1,
+            step: function (now, fx) {
+                $(el).text(Math.ceil(now));
+            },
+            complete:function() {
+                if (el.dataset.sym !== undefined) {
+                  el.textContent = el.textContent.concat(el.dataset.sym)
+                }
+            }
+        });
+    });
+    };
+    
+    var reset = function reset() {
+        console.log($(this).scrollTop())
+        if ($(this).scrollTop() > 90) {
+            $(this).off("scroll");
+          fx()
+        }
+    };
+    
+    $(window).on("scroll", reset);
+});
+</script>

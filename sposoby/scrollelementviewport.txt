@@ -1,0 +1,222 @@
+html{	<section>
+<div class="jeden">
+<div class="i-jeden hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-dwa hide">
+<div class="overlay">g</div>
+</div>
+</div>
+<div class="dwa">
+<div class="i-trzy hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-cztery hide">
+<div class="overlay">g</div>
+</div>
+</div>
+<div class="trzy">
+<div class="i-piêæ hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-szesc hide">
+<div class="overlay">g</div>
+</div>
+</div>
+<div class="cztery">
+<div class="i-siedem hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-osiem hide">
+<div class="overlay">g</div>
+</div>
+</div>
+<div class="piêæ">
+<div class="i-dziewiec hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-dziesiec hide">
+<div class="overlay">g</div>
+</div>
+</div>
+<div class="szesc">
+<div class="i-jedenascie hide">
+<div class="overlay">g</div>
+</div>
+<div class="i-dwanascie hide">
+<div class="overlay">g</div>
+</div>
+</div>
+</section>
+}
+
+css{.hide{
+opacity:0 !important;
+}
+.show{
+opacity:1 !important;
+}
+.jeden,.dwa,.trzy,.cztery,.piêæ,.szesc{
+display:flex;
+}
+.i-jeden,.i-dwa,.i-trzy,.i-cztery,.i-piêæ,.i-szesc,.i-siedem,.i-osiem,.i-dziewiec,.i-dziesiec,.i-jedenascie,.i-dwanascie{
+flex:1 1 400px;
+flex-wrap:wrap;
+margin:20px 40px;
+height:300px;
+}
+.i-jeden,.i-trzy ,.i-piêæ ,.i-siedem ,.i-dziewiec ,.i-jedenascie{
+background-color:red;
+}
+.i-dwa,.i-cztery,.i-szesc,.i-osiem,.i-dziesiec,.i-dwanascie{
+background-color:green;
+}
+.overlay{
+position:absolute;
+left:0;
+right:0;
+top:0;
+bottom;
+width:100%;
+height:100%;
+background: url(http://testowy.adoffice.pl/wp-content/uploads/2017/02/pobrane.png) repeat top left; 
+opacity:0;
+
+
+
+}
+.overlay:hover{
+opacity:1;
+
+
+}
+}
+js{
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://rawgit.com/dirkgroenen/jQuery-viewport-checker/master/dist/jquery.viewportchecker.min.js"></script>
+wywoa³anie js:
+jQuery(document).ready(function(){
+animate1();
+
+});
+	
+function animate1() {
+
+            jQuery('.i-jeden').viewportChecker({
+			 classToAdd: 'animated show fadeInLeft',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-dwa').viewportChecker({
+			 classToAdd: 'animated show bounce',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-trzy').viewportChecker({
+			 classToAdd: 'animated show bounce',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-cztery').viewportChecker({
+			 classToAdd: 'animated show slideInRight',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			
+			jQuery('.i-piêæ').viewportChecker({
+			 classToAdd: 'animated show fadeInLeft',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-szesc').viewportChecker({
+			 classToAdd: 'animated show fadeInRight',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-siedem').viewportChecker({
+			 classToAdd: 'animated show fadeInLeft',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-osiem').viewportChecker({
+			 classToAdd: 'animated show fadeInRight',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			
+			jQuery('.i-dziewiec').viewportChecker({
+			 classToAdd: 'animated show fadeInLeft',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-dziesiec').viewportChecker({
+			 classToAdd: 'animated show fadeInRight',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			
+			jQuery('.i-jedenascie').viewportChecker({
+			 classToAdd: 'animated show fadeInLeft',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			jQuery('.i-dwanascie').viewportChecker({
+			 classToAdd: 'animated show fadeInRight',
+             classToRemove: 'hide',
+			 
+
+          offset: 100
+			
+			
+			});
+			
+			
+       
+		
+}
+}
+}

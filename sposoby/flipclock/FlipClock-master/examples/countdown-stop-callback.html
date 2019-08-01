@@ -1,0 +1,95 @@
+<html>
+	<head>
+	<style>
+	body{
+	background-image:url(http://wedding.adserv.pl/wp-content/uploads/2017/01/pexels-photo-101554.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	}
+	
+	@media(max-width:767px){
+	.clock {
+    transform-origin: 0 0;
+    transform: scale(.25);
+    -ms-transform: scale(.25);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.25);
+    -o-transform-origin: 0 0;
+    -o-transform: scale(.25);
+    -moz-transform-origin: 0 0;
+    -moz-transform: scale(.25);
+}
+}
+media(max-width:992px){
+	.clock {
+    transform-origin: 0 0;
+    transform: scale(.50);
+    -ms-transform: scale(.50);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(.50);
+    -o-transform-origin: 0 0;
+    -o-transform: scale(.50);
+    -moz-transform-origin: 0 0;
+    -moz-transform: scale(.50);
+}
+}
+
+.flex-item {
+    position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+
+    }
+	.our{
+	color:white;
+	font-size:50px;
+	display:flex;
+	justify-content:center;
+	font-weight:bold;
+	padding:80px 0;
+	}
+	
+	</style>
+	<meta charset="utf-8">
+		<link rel="stylesheet" href="../compiled/flipclock.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="../compiled/flipclock.js"></script>		
+	</head>
+	<body>
+	<div class="flex-container">
+	<div class="flex-item">
+	<span class="our">Nasze wesele odbędzie się za</span><div class="clock" style="margin:2em;"></div>
+	<div class="message"></div>
+</div>
+</div>
+	<script type="text/javascript">
+		var clock;
+		
+		$(document).ready(function() {
+
+			clock = $('.clock').FlipClock(1*5, {
+		clockFace: 'DailyCounter',
+		language:'pl-pl',
+		countdown: true,
+		        callbacks: {
+		        	stop: function() {
+					    $('.our').css('display','none');
+						$('.clock').css('display','none');
+					     window.location.href = "http://wedding.adserv.pl/?page_id=7"
+						
+		        	}
+		        }
+		    });
+
+		});
+		
+	</script>
+	
+	</body>
+</html>

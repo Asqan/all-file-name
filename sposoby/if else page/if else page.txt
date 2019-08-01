@@ -1,0 +1,16 @@
+<?php   if ( is_page(762) ) { 
+?>
+ <p class="bold_title"><?php echo get_the_title('762'); ?></p>
+
+
+<?php } elseif( is_page(758) ) {
+
+?>
+						<p class="bold_title"><?php echo get_the_title('758'); ?></p>
+
+<?php } 
+else {
+echo  '<div class="option one">any content</div>';
+}
+
+?>

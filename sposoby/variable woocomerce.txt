@@ -1,0 +1,14 @@
+ <?php }
+                
+                    $handle=new WC_Product_Variable($id);
+                    if($_product->is_type( 'variable' )){
+                    echo '<br>';
+                    echo '<select name="variations">';
+                    $variations1=$handle->get_children();
+                    foreach ($variations1 as $variant_id) {
+                    $single_variation=new WC_Product_Variation($variant_id);
+                        echo '<option  value="'.$variant_id.'">'. $single_variation->get_name().' - '.$single_variation->price.get_woocommerce_currency_symbol().'</option>';
+                    }
+                    echo '</select>';
+                }
+                ?>
